@@ -49,3 +49,13 @@ tllocalmgr install fontawesome5
 sudo texhash
 
 ##################################################
+# "font not found" workaround
+##################################################
+
+# step 1: find the map name of the font:
+less /usr/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map
+
+# step 2: include map in tex file:
+# ex: \pdfmapfile{=ClearSans.map}
+
+##################################################
