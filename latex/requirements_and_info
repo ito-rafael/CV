@@ -36,3 +36,16 @@ pkgver() {
 makepkg -si
 
 ##################################################
+# install packages required to compile tex CV
+##################################################
+
+# template: FortySecondsCV
+
+tllocalmgr install clearsans
+tllocalmgr install mweights
+tllocalmgr install fontawesome
+tllocalmgr install fontawesome5
+
+sudo texhash
+
+##################################################
