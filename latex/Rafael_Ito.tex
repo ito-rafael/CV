@@ -22,6 +22,8 @@
 % profilepicrounding=1.0cm,
 ]{fortysecondscv}
 
+%\newcommand{\divider}{\textcolor{body!30}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}\medskip}
+
 % include fonts
 \pdfmapfile{=ClearSans.map}
 \pdfmapfile{=fontawesome.map}
@@ -73,29 +75,29 @@
 %-------------------------------------------------------------------------------
 %% mandatory information
 % your name
-\cvname{Panda Bear}
+\cvname{Rafael Claro Ito}
 % job title/career
-\cvjobtitle{Panda Scientist,\\[0.2em] Panda of the Year}
+\cvjobtitle{Electrical Engineer,\\[0.2em] HW \& SW Developer}
 
 %% optional information
 % profile picture
-\cvprofilepic{../figures/profile.png}
+\cvprofilepic{../figures/profile.jpeg}
 
 % NOTE: ordering in sidebar will mimic the following order
 % date of birth
-\cvbirthday{\today}
+\cvbirthday{03/02/1992}
 % short address/location, use \newline if more than 1 line is required
-\cvaddress{Park Ave.~1, 555 555 B-Woods}
+\cvaddress{Rua Gilberto Pattaro, 150 $\cdot$ Campinas/SP, Brazil}
 % phone number
-\cvphone{+86 555 555 555}
+\cvphone{+55 19 98810-2615}
 % personal website
-\cvsite{https://pandascience.net}
+%\cvsite{https://pandascience.net}
 % email address
-\cvmail{panda@bamboo.cn}
+\cvmail{ito.rafael@gmail.com}
 % pgp key
-\cvkey{4096R/FF00FF00}{0xAABBCCDDFF00FF00}
+%\cvkey{4096R/FF00FF00}{0xAABBCCDDFF00FF00}
 % any other custom entry
-\cvcustomdata{\faFlag}{Chinese}
+%\cvcustomdata{\faFlag}{Chinese}
 
 %-------------------------------------------------------------------------------
 %                              SIDEBAR 1st PAGE
@@ -104,36 +106,51 @@
 \addtofrontsidebar{
 	% include gosquare national flags from https://github.com/gosquared/flags;
 	% naming according to ISO 3166-1 alpha-2 country codes
-    \graphicspath{{../figures/flags/shiny/}}
+    \graphicspath{{../figures/languages/}}
 
 	% social network accounts incl. proper hyperlinks
 	\profilesection{Social Network}
 		\begin{icontable}{2.5em}{1em}
-			\social{\aiOverleafSquare}
-				{https://de.overleaf.com/latex/templates/forty-seconds-cv/pztcktmyngsk}
-				{Overleaf Template Link}
+%			\social{\aiOverleafSquare}
+				%{https://de.overleaf.com/latex/templates/forty-seconds-cv/pztcktmyngsk}
+                {https://www.linkedin.com/in/itorafael/}
+				{LinkedIn}
 			\social{\faGithub}
-				{https://github.com/PandaScience/FortySecondsCV}
+				{https://github.com/ito-rafael/}
 				{Github Project Page Link}
 		\end{icontable}
 
 	\profilesection{Languages}
-		\pointskill{\flag{CN.png}}{Chinese}{5}
-		\pointskill{\flag{DE.png}}{German}{3}
-	\pointskill{\flag{GB.png}}{English}{3}
-	\pointskill{\flag{FR.png}}{French}{3}
+		\pointskill{\flag{en-US}}{English}{5}
+		\pointskill{\flag{pt-BR}}{Portuguese}{5}
+	    \pointskill{\flag{it-IT}}{Italian}{4}
+    	\pointskill{\flag{fr-FR}}{French}{2}
+    	\pointskill{\flag{es-ES}}{Spanish}{2}
+    	\pointskill{\flag{jp-JP}}{Japanese}{1}
 
-	\profilesection{Hard Skills}
-		\skill{\faBalanceScale}{Sleeping almost all day}
-		\skill{\faSitemap}{Eating a lot bamboo sprouts}
-		\skill{\faGraduationCap}{Relaxing rest of the day}
+	\profilesection{Awards}
+        \skill{\faBalanceScale}{2009 6th place at OSA}
+		\skill{\faBalanceScale}{2009 Silver Medal at OBMEP}
+		\skill{\faBalanceScale}{2008 Silver Medal at OBMEP}
+		\skill{\faBalanceScale}{2008 Certificate of Merit at OMU}
+		\skill{\faBalanceScale}{2007 Honorable Mention at OBMEP}
+		\skill{\faBalanceScale}{2006 Honorable Mention at OBMEP}
+%        OBMEP: Brazilian Public Schools Mathematic
+%        OSA: UNICAMP Physics Olympiad}s Olympiad
+%        OMU: UNICAMP Mathematics Olympiad
 
-	\profilesection{Soft Skills}
-		\pointskill{\faHome}{Looking Cute}{4}[4]
-			\skill[1.8em]{\faCompress}{No need to specify further}
-		\pointskill{\faChild}{Chillin' hard}{3}[4]
-			\skill[1.8em]{\faCompress}{On a tree}
-			\skill[1.8em]{\faCompress}{On the grass}
+%	\profilesection{Hard Skills}
+%		\skill{\faBalanceScale}{Sleeping almost all day}
+%		\skill{\faSitemap}{Eating a lot bamboo sprouts}
+%		\skill{\faGraduationCap}{Relaxing rest of the day}
+
+%	\profilesection{Soft Skills}
+%		\pointskill{\faHome}{Looking Cute}{4}[4]
+%			\skill[1.8em]{\faCompress}{No need to specify further}
+%		\pointskill{\faChild}{Chillin' hard}{3}[4]
+%			\skill[1.8em]{\faCompress}{On a tree}
+%			\skill[1.8em]{\faCompress}{On the grass}
+
 }
 
 
@@ -195,43 +212,46 @@
 
 \cvsection{Working Experience}
 \begin{cvtable}[3]
-	\cvitem{currently}{CEO The Panda Way}{Start Up}{Chief executive officer, Head
-		developer and yoga ambassador of 'The Panda Way' - A company from pandas
-		for pandas.}
-	\cvitem{2015 -- 2018}{Panda Scientist}{Bamboo University}{
-		Reasearching the impact of adequate bamboo nutrition compared to
-		conventional feeding methods.}
-	\cvitem{2010 -- 2015}{Bamboo Broker}{Stock Exchange}{Continuously achieving
-		better bamboo bangs for the buck.}
+	\cvitem{Jan 2016 current}{Technological Development Analyst}{CNPEM/LNLS}{Blah}
+	\cvitem{Jan 2016 Jul 2016}{Teaching Assistant}{University of Campinas}{bla}
+	\cvitem{Jun 2015 Sep 2015}{Scientific Research}{Queen Mary University of London}{bla}
+	\cvitem{Jan 2010 Jun 2010}{Electronics intern}{CPqD - Telecommunications Research and Development Centre}{bla}
+	\cvitem{Jan 2009 Dec 2009}{Teaching Assistant}{Technical College of Campinas}{bla}
+
+%    \divider
+
+	\cvitem{2010 -- 2015}{Bamboo Broker}{Stock Exchange}{Continuously achieving better bamboo bangs for the buck.}
 \end{cvtable}
 
 
 \cvsection{Education}
-\cvsubsection{Postgraduate Training}
-\begin{cvtable}[1.5]
-	\cvitem{2009 -- 2010}{Post-Doc Panda Studies}{Panda Academy}
-		{In-depth studies on the impact of bamboo nutrition for young pandas and
-		its relation to relaxing, sleeping and snoozing parts of the day.}
-	\cvitem{2008 -- 2009}{Research Stay Europe}{European Panda Labs}
-		{Spending one year abroad teaching european panda facilities about the
-		newest findings and research in the field of asian rice hat covers and
-		applications for bamboo as a material.}
+%\cvsubsection{Postgraduate Training}
+%\begin{cvtable}[1.5]
+\begin{cvtable}[2.0]
+	\cvitem{Jan 2017 current}{Graduate}{University of Campinas}
+		{Part-time Masters degree.}
+	\cvitem{Jan 2011 Dec 2016}{Undergraduate}{University of Campinas}
+		{Bla}
+    \cvitem{Sep 2014 Aug 2015}{Undergraduate (Student Exchange Program)}{Queen Mary University of London}
+		{Studies sponsored by the Brazilian government due to academic merit.
+        Science without Borders (SwB) student exchange program.}
+	\cvitem{Jan 2007 Jul 2010}{Further Education}{Technical College of Campinas - UNICAMP}
+		{Selected to work as a Teaching Assistant of the technical course.}
 \end{cvtable}
 
-
-\cvsubsection{Study}
-\begin{cvtable}[1.5]
-	\cvitem{2006 -- 2008}{Master Studies Panda Science}{Panda Academy}
-		{Focus: Advanced rice hat studies and nouveau rain-reflecting cover
-		materials.}
-	\cvitem{}{Master Theses ($\varnothing\,	1,0$)}{Asian Rice Hat Institute}
-		{Impact on solar radiation onto rice hat cover materials with special
-		attention to water resistance.}
-	\cvitem{2003 -- 2006}{Bachelor Studies PandaScience}{Panda Academy}
-		{Focus: Bamboo morphology and its usage in different craftmanships.}
-	\cvitem{}{Bachelor Theses ($\varnothing\,	1,0$)}{Bamboo Institute}
-		{The bambo flute: An underestimated instrument in orchestras?}
-\end{cvtable}
+%\cvsubsection{Study}
+%\begin{cvtable}[1.5]
+%	\cvitem{2006 -- 2008}{Master Studies Panda Science}{Panda Academy}
+%		{Focus: Advanced rice hat studies and nouveau rain-reflecting cover
+%		materials.}
+%	\cvitem{}{Master Theses ($\varnothing\,	1,0$)}{Asian Rice Hat Institute}
+%		{Impact on solar radiation onto rice hat cover materials with special
+%		attention to water resistance.}
+%	\cvitem{2003 -- 2006}{Bachelor Studies PandaScience}{Panda Academy}
+%		{Focus: Bamboo morphology and its usage in different craftmanships.}
+%	\cvitem{}{Bachelor Theses ($\varnothing\,	1,0$)}{Bamboo Institute}
+%		{The bambo flute: An underestimated instrument in orchestras?}
+%\end{cvtable}
 
 \cvsection{Publications}
 \begin{cvtable}
@@ -258,7 +278,7 @@
 
 
 \newpage
-\makebacksidebar
+%\makebacksidebar
 
 
 \cvsection{section}

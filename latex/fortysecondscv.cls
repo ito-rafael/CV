@@ -626,16 +626,16 @@
 % | <keyword>      <one-line description>            |
 % use parbox if text needs to use multiple lines
 \newcommand{\cvitemshort}[2]{%
-	\parbox[t]{0.17\textwidth}{\raggedright #1}
-  & \parbox[t]{0.81\textwidth}{#2} \\}
+	\parbox[t]{0.13\textwidth}{\raggedright #1}
+  & \parbox[t]{0.84\textwidth}{#2} \\}
 
 % | <date>         <bold-title>  \hfill  <location>  |
 % |                <longer description>              |
 % or, if description is empty:
 % | <date>         <title>       \hfill  <location>  |
 \newcommand{\cvitem}[4]{%
-	\parbox[t]{0.17\textwidth}{\raggedright #1} &%
-	\parbox[t]{0.81\textwidth}{%
+	\parbox[t]{0.13\textwidth}{\raggedright #1} &%
+	\parbox[t]{0.84\textwidth}{%
 		\if\relax\detokenize{#4}\relax%
 			\parbox[t]{\linewidth-\widthof{\footnotesize #3}-1em}{\raggedright #2}%
 		\hfill {\footnotesize#3}%
