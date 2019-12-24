@@ -22,7 +22,14 @@
 % profilepicrounding=1.0cm,
 ]{fortysecondscv}
 
-%\newcommand{\divider}{\textcolor{body!30}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}\medskip}
+% define divider and cvdivider command: dashed gray line separator
+% attention: import colortbl befor arydshln
+\usepackage{colortbl}
+\usepackage{arydshln}
+\RequirePackage{dashrule}
+\colorlet{body}{black!80!white}
+\newcommand{\cvdivider}{\arrayrulecolor{body!30}\hdashline}
+%\newcommand{\divider}{\textcolor{body!30}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}}
 
 % include fonts
 \pdfmapfile{=ClearSans.map}
@@ -211,18 +218,22 @@
 \makefrontsidebar
 
 \cvsection{Working Experience}
-\begin{cvtable}[3]
-	\cvitem{Jan 2016 current}{Technological Development Analyst}{CNPEM/LNLS}{Blah}
-	\cvitem{Jan 2016 Jul 2016}{Teaching Assistant}{University of Campinas}{bla}
-	\cvitem{Jun 2015 Sep 2015}{Scientific Research}{Queen Mary University of London}{bla}
-	\cvitem{Jan 2010 Jun 2010}{Electronics intern}{CPqD - Telecommunications Research and Development Centre}{bla}
-	\cvitem{Jan 2009 Dec 2009}{Teaching Assistant}{Technical College of Campinas}{bla}
-
-%    \divider
-
+% change arraystretch (distance between items):
+%\begin{cvtable}[<arraystretch>=1]
+\begin{cvtable}[1.5]
+	\cvitem{Jan 2016 current}{Technological Development Analyst}{CNPEM/LNLS}{Blah\medskip}
+    \cvdivider
+	\cvitem{Jan 2016 Jul 2016}{Teaching Assistant}{University of Campinas}{bla alkdjasjd asdjasd asiod asoidj asoid jasdj asoidj as djaskldjaslkd jalsdjlasjda daskl djalskdlajs ldasj dlkasj daskldj alsjdasld lasdasd aslj dlasdj asl djlas ldajl dasjd asl dlasjd\medskip}
+    \cvdivider
+	\cvitem{Jun 2015 Sep 2015}{Scientific Research}{Queen Mary University of London}{blabljdbjsdl bksdjblsdblds bjsd bkljsd blksjd blksdj blsd jblsd blksdjb lksdj blkds jblskd bjsdbjksdl bjlsdjblsd jblsdb sdlk bjlds jbsdkl bdsjl bkldsj blsd lbj s dblsdb sd kbj sdlkbjdskl bjdskl jbldsj bb\medskip}
+    \cvdivider
+	%\cvitem{Jan 2010 Jun 2010}{Electronics intern}{CPqD - Telecommunications Research and Development Centre}{bla\medskip}
+	\cvitem{Jan 2010 Jun 2010}{Electronics intern}{CPqD - Telecommunications Research and Development Centre}{bla\medskip}
+    \cvdivider
+    \cvitem{Jan 2009 Dec 2009}{Teaching Assistant}{Technical College of Campinas}{bla\medskip}
+    \cvdivider
 	\cvitem{2010 -- 2015}{Bamboo Broker}{Stock Exchange}{Continuously achieving better bamboo bangs for the buck.}
 \end{cvtable}
-
 
 \cvsection{Education}
 %\cvsubsection{Postgraduate Training}

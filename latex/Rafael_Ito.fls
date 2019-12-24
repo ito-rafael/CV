@@ -235,6 +235,14 @@ INPUT /usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT /usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT /usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/share/texmf-dist/tex/latex/arydshln/arydshln.sty
+INPUT /usr/share/texmf-dist/tex/latex/arydshln/arydshln.sty
+INPUT /usr/share/texmf-dist/tex/latex/dashrule/dashrule.sty
+INPUT /usr/share/texmf-dist/tex/latex/dashrule/dashrule.sty
+INPUT /usr/share/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+INPUT /usr/share/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 INPUT /home/rafael/.texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/share/texmf/fonts/map/dvips/clearsans/ClearSans.map
 INPUT /usr/local/share/texmf/fonts/map/dvips/fontawesome/fontawesome.map
