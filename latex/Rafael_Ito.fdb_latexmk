@@ -1,5 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1577279899 "Rafael_Ito.tex" "Rafael_Ito.pdf" "Rafael_Ito" 1577279900
+["pdflatex"] 1577310171 "Rafael_Ito.tex" "Rafael_Ito.pdf" "Rafael_Ito" 1577310173
+  "../figures/awards/medal_golden_red.png" 1577309023 19315 b79c61e49fac42f2f5b7aa7b677d993e ""
+  "../figures/awards/medal_silver_blue.png" 1565443025 11650 958c85fa9e68c6ae2c359b2e509eceb4 ""
+  "../figures/awards/merit.png" 1577309214 26219 bff337cd7f575618a4583bb5400fa020 ""
+  "../figures/awards/merit_2.png" 1577309281 6420 83839e6cc97fe4c91375b529b97bd2c2 ""
   "../figures/languages/en-US.png" 1576689496 21415 7ee0e4d4216cf7e9d766ba865463704e ""
   "../figures/languages/es-ES.jpg" 1565443025 86671 7e63eca99c6ccf202c551777d42ab340 ""
   "../figures/languages/fr-FR.png" 1565443025 5146 a57237b87d5f590a2af418224c9020ca ""
@@ -216,12 +220,12 @@
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1572595918 4962 9c1069474ff71dbc47d5006555e352d3 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1572595918 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1574122186 8044940 bc2a637f0415eb0a7c4754a5d984bd0f ""
-  "Rafael_Ito.aux" 1577279900 738 4f19f36d00b4f65bd669c9d44f08482d "pdflatex"
-  "Rafael_Ito.out" 1577279900 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Rafael_Ito.tex" 1577279899 12746 fcb96ad515f495b427441b6548c40610 ""
-  "fortysecondscv.cls" 1577278080 21675 0e3bbb6a8323284ace09c9d164154efe ""
+  "Rafael_Ito.aux" 1577310173 738 4f19f36d00b4f65bd669c9d44f08482d "pdflatex"
+  "Rafael_Ito.out" 1577310172 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Rafael_Ito.tex" 1577310171 13498 37fc41b8483e45eb0d137c98dd6ffa30 ""
+  "fortysecondscv.cls" 1577309856 21675 ba64bc42c811785f71c6a46e0a5b083a ""
   (generated)
+  "Rafael_Ito.pdf"
   "Rafael_Ito.aux"
   "Rafael_Ito.out"
   "Rafael_Ito.log"
-  "Rafael_Ito.pdf"

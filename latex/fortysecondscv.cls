@@ -436,7 +436,7 @@
 % \skill[<indent>]{<icon>}{<description>} creates in sidebar
 % | [indent] [icon]  some longer skill description  |
 \newcommand{\skill}[3][0em]{
-	\hspace{#1} \cvicon{#2} ~ \parbox{\linewidth-#1-2.5em}{#3} \hfill \par
+	\hspace{#1} \cvicon{#2} ~ \parbox{\linewidth-#1-2.0em}{#3} \hfill \par
 }
 
 % label for wheel charts

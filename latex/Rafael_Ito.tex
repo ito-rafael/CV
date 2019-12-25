@@ -112,10 +112,10 @@
 %-------------------------------------------------------------------------------
 % add more profile sections to sidebar on first page
 \addtofrontsidebar{
-	% include gosquare national flags from https://github.com/gosquared/flags;
-	% naming according to ISO 3166-1 alpha-2 country codes
-    \graphicspath{{../figures/languages/}}
 
+    %===============
+    % SOCIAL NETWORK
+    %===============
 	% social network accounts incl. proper hyperlinks
 	\profilesection{Social Network}
 		\begin{icontable}{2.5em}{1em}
@@ -128,6 +128,13 @@
 				{Github Project Page Link}
 		\end{icontable}
 
+    %===============
+    % LANGUAGES
+    %===============
+	% include gosquare national flags from https://github.com/gosquared/flags;
+	% naming according to ISO 3166-1 alpha-2 country codes
+    \graphicspath{{../figures/languages/}}
+
 	\profilesection{Languages}
 		\pointskill{\flag{en-US}}{English}{5}
 		\pointskill{\flag{pt-BR}}{Portuguese}{5}
@@ -136,13 +143,25 @@
     	\pointskill{\flag{es-ES}}{Spanish}{2}
     	\pointskill{\flag{jp-JP}}{Japanese}{1}
 
+    %===============
+    % AWARDS
+    %===============
 	\profilesection{Awards}
-        \skill{\faBalanceScale}{2009 6th place at OSA}
-		\skill{\faBalanceScale}{2009 Silver Medal at OBMEP}
-		\skill{\faBalanceScale}{2008 Silver Medal at OBMEP}
-		\skill{\faBalanceScale}{2008 Certificate of Merit at OMU}
-		\skill{\faBalanceScale}{2007 Honorable Mention at OBMEP}
-		\skill{\faBalanceScale}{2006 Honorable Mention at OBMEP}
+        % insert path for awards icon
+        \graphicspath{{../figures/awards/}}
+        % define new commands for awars icon
+        \newcommand{\goldenmedal}{\cvicon{\includegraphics[align=c, width=1.0em]{medal_golden_red}}}
+        \newcommand{\silvermedal}{\cvicon{\includegraphics[align=c, width=1.0em]{medal_silver_blue}}}
+        \newcommand{\certificate}{\cvicon{\includegraphics[align=c, width=1.0em]{merit}}}
+        \newcommand{\certificatetwo}{\cvicon{\includegraphics[align=c, width=1.0em]{merit_2}}}
+        
+        \skill{\goldenmedal}{2009 6th place at OSA}
+		\skill{\silvermedal}{2009 Silver Medal at OBMEP}
+		\skill{\silvermedal}{2008 Silver Medal at OBMEP}
+		\skill{\certificatetwo}{2008 Certificate of Merit at OMU}
+		\skill{\certificate}{2007 Honorable Mention at OBMEP}
+		\skill{\certificate}{2006 Honorable Mention at OBMEP}
+        %--------------------------------------------------------
         \profiledivider
         OBMEP: Brazilian Public Schools Mathematics Olympiad\\
         OSA: UNICAMP Physics Olympiad\\
