@@ -231,10 +231,14 @@
 
 % section style for cv table headings in right column
 % \titleformat{<command>}[<shape>]{<format>}{<label>}{<sep>}{<before>}[<after>]
-\newcommand*{\cvsection}[1]{\section*{#1}}
+\newcommand*{\cvsection}[1]{
+    \section*{#1}
+    {\color{sectioncolor}\rule{\linewidth}{2pt}\par}\smallskip
+}
 \titleformat{\section}%
 	{\color{sectioncolor}\normalfont\bfseries\LARGE}{}{0pt}{}
-\titlespacing*{\section}{0pt}{1.5ex}{1ex}
+\titlespacing*{\section}{0pt}{1.5ex}{-1ex}
+%\titlespacing*{\section}{0pt}{1.5ex}{POSITION_OF_THE_LINE}
 
 % grey subsection style for right column
 \newcommand*{\cvsubsection}[1]{\subsection*{#1}}
