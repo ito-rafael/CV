@@ -1,0 +1,6 @@
+- insert language certification scores
+  - Portuguese: Mother language
+  - English: TOEFL/IELTS
+  - Italian: CILS/CELI
+
+- include dividers (\divider and \cvdivider) in cls file, instead in tex
