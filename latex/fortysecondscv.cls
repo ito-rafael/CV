@@ -246,12 +246,15 @@
 	{\color{subsectioncolor}\normalfont\large}{}{0pt}{}
 
 % abuse subsubsection as profilesection in left column
-\newcommand*{\profilesection}[1]{\subsubsection*{#1}}
+\newcommand*{\profilesection}[1]{
+    \subsubsection*{#1}
+    {\color{pseccolor}\rule{\linewidth}{1pt}\par}\smallskip
+}
 \titleformat{\subsubsection}
-	{\color{pseccolor}\normalfont\huge}{}{0pt}{\color{pseccolor}\sectionline}
+    {\color{pseccolor}\normalfont\huge}{}{0pt}{\color{pseccolor}}%\sectionline}
 % set spaces before and after profilesections: <left><before><after>
 % "starred version kills the indentation of the paragraph following the title"
-\titlespacing*{\subsubsection}{0pt}{1ex}{1ex}
+\titlespacing*{\subsubsection}{0pt}{1ex}{-2ex}
 
 
 %-------------------------------------------------------------------------------
