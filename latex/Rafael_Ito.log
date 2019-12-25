@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.11.18)  25 DEC 2019 09:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.11.18)  25 DEC 2019 10:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -948,34 +948,34 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )) (./Rafael_Ito.aux)
 \openout1 = `Rafael_Ito.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 216.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 216.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 218.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 218.
  (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Trying to load font information for T1+ClearSans-TLF on input line 216.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Trying to load font information for T1+ClearSans-TLF on input line 218.
  (/usr/local/share/texmf/tex/latex/clearsans/T1ClearSans-TLF.fd
 File: T1ClearSans-TLF.fd 2019/10/16 (autoinst) Font definitions for T1/ClearSans-TLF.
 )
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 216.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 218.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 216.
+(Font)              scaled to size 10.0pt on input line 218.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count299
@@ -1038,7 +1038,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 \c@mv@tabular=\count305
 \c@mv@boldtabular=\count306
 \AtBeginShipoutBox=\box67
-Package hyperref Info: Link coloring OFF on input line 216.
+Package hyperref Info: Link coloring OFF on input line 218.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1046,21 +1046,21 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count307
 )
-LaTeX Info: Redefining \ref on input line 216.
-LaTeX Info: Redefining \pageref on input line 216.
-LaTeX Info: Redefining \nameref on input line 216.
+LaTeX Info: Redefining \ref on input line 218.
+LaTeX Info: Redefining \pageref on input line 218.
+LaTeX Info: Redefining \nameref on input line 218.
  (./Rafael_Ito.out) (./Rafael_Ito.out)
 \@outlinefile=\write4
 \openout4 = `Rafael_Ito.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 216.
+LaTeX Info: Redefining \microtypecontext on input line 218.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 216.
+LaTeX Info: Redefining \showhyphens on input line 218.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1069,121 +1069,121 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 216.
+LaTeX Info: Redefining \selectfont on input line 218.
 <../figures/profile.jpeg, id=7, 1409.265pt x 1391.1975pt>
 File: ../figures/profile.jpeg Graphic file (type jpg)
 <use ../figures/profile.jpeg>
-Package pdftex.def Info: ../figures/profile.jpeg  used on input line 218.
+Package pdftex.def Info: ../figures/profile.jpeg  used on input line 220.
 (pdftex.def)             Requested size: 142.20471pt x 140.38034pt.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <24.88> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 218.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 220.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 24.88pt on input line 218.
+(Font)              scaled to size 24.88pt on input line 220.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <14.4> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 218.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 220.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 218.
+(Font)              scaled to size 14.4pt on input line 220.
  (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd) (/usr/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg) (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd) (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd) (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd) (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texmf-dist/tex/latex/microtype/mt-msa.cfg) (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd) (/usr/share/texmf-dist/tex/latex/microtype/mt-msb.cfg) (/usr/local/share/texmf/tex/latex/fontawesome/ufontawesomethree.fd) (/usr/local/share/texmf/tex/latex/fontawesome/ufontawesometwo.fd) (/usr/local/share/texmf/tex/latex/fontawesome/ufontawesomeone.fd)
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <20.74> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 218.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 220.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 20.74pt on input line 218.
+(Font)              scaled to size 20.74pt on input line 220.
 
-Overfull \hbox (149.98065pt too wide) in paragraph at lines 218--218
+Overfull \hbox (149.98065pt too wide) in paragraph at lines 220--220
 []|\T1/ClearSans-TLF/regular/n/10 https://www.linkedin.com/in/itorafael/
  []
 
 
-Overfull \hbox (13.61792pt too wide) in paragraph at lines 218--218
+Overfull \hbox (13.61792pt too wide) in paragraph at lines 220--220
 \T1/ClearSans-TLF/regular/n/10 LinkedIn
  []
 
 <../figures/languages/en-US.png, id=14, 1027.84pt x 685.56125pt>
 File: ../figures/languages/en-US.png Graphic file (type png)
 <use ../figures/languages/en-US.png>
-Package pdftex.def Info: ../figures/languages/en-US.png  used on input line 218.
+Package pdftex.def Info: ../figures/languages/en-US.png  used on input line 220.
 (pdftex.def)             Requested size: 10.0pt x 6.66353pt.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <7> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 218.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 220.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 218.
+(Font)              scaled to size 7.0pt on input line 220.
 <../figures/languages/pt-BR.png, id=15, 1284.8pt x 899.36pt>
 File: ../figures/languages/pt-BR.png Graphic file (type png)
 <use ../figures/languages/pt-BR.png>
-Package pdftex.def Info: ../figures/languages/pt-BR.png  used on input line 218.
+Package pdftex.def Info: ../figures/languages/pt-BR.png  used on input line 220.
 (pdftex.def)             Requested size: 10.0pt x 6.99878pt.
 <../figures/languages/it-IT.png, id=16, 1204.5pt x 803.0pt>
 File: ../figures/languages/it-IT.png Graphic file (type png)
 <use ../figures/languages/it-IT.png>
-Package pdftex.def Info: ../figures/languages/it-IT.png  used on input line 218.
+Package pdftex.def Info: ../figures/languages/it-IT.png  used on input line 220.
 (pdftex.def)             Requested size: 10.0pt x 6.6655pt.
 <../figures/languages/fr-FR.png, id=18, 1284.8pt x 856.19875pt>
 File: ../figures/languages/fr-FR.png Graphic file (type png)
 <use ../figures/languages/fr-FR.png>
-Package pdftex.def Info: ../figures/languages/fr-FR.png  used on input line 218.
+Package pdftex.def Info: ../figures/languages/fr-FR.png  used on input line 220.
 (pdftex.def)             Requested size: 10.0pt x 6.6629pt.
 <../figures/languages/es-ES.jpg, id=19, 610.73239pt x 407.15492pt>
 File: ../figures/languages/es-ES.jpg Graphic file (type jpg)
 <use ../figures/languages/es-ES.jpg>
-Package pdftex.def Info: ../figures/languages/es-ES.jpg  used on input line 218.
+Package pdftex.def Info: ../figures/languages/es-ES.jpg  used on input line 220.
 (pdftex.def)             Requested size: 10.0pt x 6.6662pt.
 <../figures/languages/jp-JP.jpg, id=20, 1885.0425pt x 1318.9275pt>
 File: ../figures/languages/jp-JP.jpg Graphic file (type jpg)
 <use ../figures/languages/jp-JP.jpg>
-Package pdftex.def Info: ../figures/languages/jp-JP.jpg  used on input line 218.
+Package pdftex.def Info: ../figures/languages/jp-JP.jpg  used on input line 220.
 (pdftex.def)             Requested size: 10.0pt x 6.98343pt.
 
-Underfull \hbox (badness 1337) in paragraph at lines 218--218
+Underfull \hbox (badness 1337) in paragraph at lines 220--220
 []\T1/ClearSans-TLF/regular/n/10 2007 Hon-or-able Men-tion at OB-
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 218--218
+Underfull \hbox (badness 1454) in paragraph at lines 220--220
 []\T1/ClearSans-TLF/regular/n/10 2006 Hon-or-able Men-tion at OB-
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bx/n' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 220.
+(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 222.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/b/n' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 220.
+(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 222.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 220.
+(Font)              scaled to size 10.0pt on input line 222.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 220.
+(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 222.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/b/n' in size <17.28> not available
-(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 220.
+(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 222.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bold/n' will be
-(Font)              scaled to size 17.28pt on input line 220.
+(Font)              scaled to size 17.28pt on input line 222.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <8> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 224.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 226.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 224.
+(Font)              scaled to size 8.0pt on input line 226.
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--237
+Underfull \hbox (badness 10000) in paragraph at lines 225--239
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--249
+Underfull \hbox (badness 10000) in paragraph at lines 242--251
 
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/it' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 267.
+(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 269.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 267.
+(Font)              scaled to size 10.0pt on input line 269.
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--270
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--278
+Underfull \hbox (badness 10000) in paragraph at lines 268--272
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--286
+Underfull \hbox (badness 10000) in paragraph at lines 276--280
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--288
 
  []
 
@@ -1191,64 +1191,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 282--286
 
  <../figures/profile.jpeg> <../figures/languages/en-US.png> <../figures/languages/pt-BR.png> <../figures/languages/it-IT.png> <../figures/languages/fr-FR.png> <../figures/languages/es-ES.jpg> <../figures/languages/jp-JP.jpg>]
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <12> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 293.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 295.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 293.
+(Font)              scaled to size 12.0pt on input line 295.
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--297
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--308
+Underfull \hbox (badness 10000) in paragraph at lines 297--299
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--315
+Underfull \hbox (badness 10000) in paragraph at lines 303--310
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--323
+Underfull \hbox (badness 10000) in paragraph at lines 313--317
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--333
+Underfull \hbox (badness 10000) in paragraph at lines 321--325
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--341
+Underfull \hbox (badness 10000) in paragraph at lines 328--335
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--343
 
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bx/n' in size <12> not available
-(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 342.
+(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 344.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/b/n' in size <12> not available
-(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 342.
+(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 344.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 342.
+(Font)              scaled to size 12.0pt on input line 344.
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 344.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 344.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 346.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
  (./Rafael_Ito.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 344.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 344.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 346.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 346.
 Package rerunfilecheck Info: File `Rafael_Ito.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33530 strings out of 492167
- 626511 string characters out of 6131557
- 732625 words of memory out of 5000000
- 37374 multiletter control sequences out of 15000+600000
+ 33531 strings out of 492167
+ 626525 string characters out of 6131557
+ 732906 words of memory out of 5000000
+ 37375 multiletter control sequences out of 15000+600000
  609048 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,17n,71p,797b,909s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/local/share/texmf/fonts/enc/dvips/clearsans/clr_zxbkm4.enc}</usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Bold.pfb></usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Italic.pfb></usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></usr/local/share/texmf/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Rafael_Ito.pdf (2 pages, 464757 bytes).
+Output written on Rafael_Ito.pdf (2 pages, 465063 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
