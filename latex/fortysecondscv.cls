@@ -285,6 +285,11 @@
 \newcommand*{\personal}[2]{%
 	\circleicon{#1} & {#2}\\%
 }
+\newcommand*{\personalnocircleicon}[2]{%
+    %\includegraphics[align=c, width=1.0em]{#1} & {#2}\\
+	%\circleicon{#1} & {#2}\\%
+    \textcolor{iconcolor}{\hskip 0.12em \LARGE#1} & {#2}\\%
+}
 
 % other personal information as macro that can be used later. Usage:
 % \cvcustomdata{<Icon>}{<Text>}
@@ -293,15 +298,51 @@
 \newcommand*{\cvcustomdata}[2]{%
 	\apptocmd{\personaldata}{\personal{#1}{#2}}{}{}%
 }
+\newcommand*{\cvcustomdatanocircleicon}[2]{%
+	\apptocmd{\personaldata}{\personalnocircleicon{#1}{#2}}{}{}%
+}
 
 % useful shortcuts
 % NOTE: we use href instead of url so user can decide textformatting since url
 % automatically uses \texttt{} as format for the url
-\newcommand*{\cvbirthday}[1]{\cvcustomdata{\faUser}{#1}}
-\newcommand*{\cvaddress}[1]{\cvcustomdata{\faEnvelope}{#1}}
+%\graphicspath{{../figures/whoami/}}
+
+%\newcommand{\whoamiemail}{\cvicon{\includegraphics[align=c, width=1.0em]{email}}}
+
+\newcommand*{\cvbirthday}[1]{\cvcustomdata{\faCalendar}{#1}}
+\newcommand*{\cvaddressone}[1]{\cvcustomdata{\faEnvelope}{#1}}
+\newcommand*{\cvaddresstwo}[1]{\cvcustomdata{\faMapMarker}{#1}}
 \newcommand*{\cvphone}[1]{\cvcustomdata{\faPhone}{#1}}
 \newcommand*{\cvsite}[1]{\cvcustomdata{\faGlobe}{\href{#1}{#1}}}
 \newcommand*{\cvmail}[1]{\cvcustomdata{\faAt}{\href{mailto:#1}{#1}}}
+
+
+
+%{\color{sectioncolor}\rule{\linewidth}{2pt}\par}\
+
+%\newcommand*{\cvline}[1]{\cvcustomdatanoicon{}{#1}}
+%\newcommand*{\cvcustomdatanoicon}[1]{%
+%    \apptocmd{\personaldata}{\hline\\}{}%
+%}
+%\newcommand*{\personalnoicon}[1]{%
+%    {#1}\\%
+%}
+
+%{\color{sectioncolor}\rule{\linewidth}{2pt}\par}\smallskip
+
+
+
+
+\newcommand*{\cvlinkedin}[2]{\cvcustomdatanocircleicon{\faLinkedinSquare}{\href{#1}{#2}}}
+\newcommand*{\cvgithub}[2]{\cvcustomdatanocircleicon{\faGithub}{\href{#1}{#2}}}
+\newcommand*{\cvfacebook}[2]{\cvcustomdatanocircleicon{\faFacebookSquare}{\href{#1}{#2}}}
+\newcommand*{\cvskype}[2]{\cvcustomdatanocircleicon{\faSkype}{\href{#1}{#2}}}
+%\newcommand*{\cvbirthday}[1]{\cvcustomdata{\faUser}{#1}}
+%\newcommand*{\cvaddress}[1]{\cvcustomdata{\faEnvelope}{#1}}
+%\newcommand*{\cvphone}[1]{\cvcustomdata{\faPhone}{#1}}
+%\newcommand*{\cvsite}[1]{\cvcustomdata{\faGlobe}{\href{#1}{#1}}}
+%\newcommand*{\cvmail}[1]{\cvcustomdata{\faAt}{\href{mailto:#1}{#1}}}
+%\newcommand*{\cvkey}[2]{\cvcustomdata{\faKey}{%
 \newcommand*{\cvkey}[2]{\cvcustomdata{\faKey}{%
 	\href{https://keyserver.ubuntu.com/pks/lookup?search=#2\&op=vindex\&fingerprint=on}{#1}%
 }}
@@ -484,8 +525,7 @@
 	}%
 	\begin{tikzpicture}
 
-		% Calculate the thickness and the middle line of the wheel
-		\pgfmathsetmacro{\wheelwidth}{\outerradius-\innerradius}
+		% Calculate the thickness and the middle line of theaAt\pgfmathsetmacro{\wheelwidth}{\outerradius-\innerradius}
 		\pgfmathsetmacro{\midradius}{(\outerradius+\innerradius)/2}
 
 		% Rotate so we start from the top
@@ -633,16 +673,16 @@
 % | <keyword>      <one-line description>            |
 % use parbox if text needs to use multiple lines
 \newcommand{\cvitemshort}[2]{%
-	\parbox[t]{0.13\textwidth}{\raggedright #1}
-  & \parbox[t]{0.84\textwidth}{#2} \\}
+	\parbox[t]{0.14\textwidth}{\raggedright #1}
+  & \parbox[t]{0.83\textwidth}{#2} \\}
 
 % | <date>         <bold-title>  \hfill  <location>  |
 % |                <longer description>              |
 % or, if description is empty:
 % | <date>         <title>       \hfill  <location>  |
 \newcommand{\cvitem}[4]{%
-	\parbox[t]{0.13\textwidth}{\raggedright #1} &%
-	\parbox[t]{0.84\textwidth}{%
+	\parbox[t]{0.14\textwidth}{\raggedright #1} &%
+	\parbox[t]{0.83\textwidth}{%
 		\if\relax\detokenize{#4}\relax%
 			\parbox[t]{\linewidth-\widthof{\footnotesize #3}-1em}{\raggedright #2}%
 		\hfill {\footnotesize#3}%

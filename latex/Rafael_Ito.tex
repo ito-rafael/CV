@@ -32,6 +32,11 @@
 \newcommand{\profiledivider}{\textcolor{body!30}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}\\}
 %\newcommand{\divider}{\textcolor{body!30}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}}
 
+% provides blind text useful for test purposes
+\usepackage{blindtext}
+
+\usepackage{amsmath}
+
 % include fonts
 \pdfmapfile{=ClearSans.map}
 \pdfmapfile{=fontawesome.map}
@@ -85,7 +90,23 @@
 % your name
 \cvname{Rafael Claro Ito}
 % job title/career
-\cvjobtitle{Electrical Engineer,\\[0.2em] HW \& SW Developer}
+\cvjobtitle{
+    Electrical Engineer\\[0.2em]
+    HW \& SW Developer\\[0.2em]
+    Data Scientist
+}
+
+
+
+
+
+
+%\graphicspath{{../figures/whoami/}}
+%\newcommand{\whoamiemail}{\cvicon{\includegraphics[align=c, width=1.0em]{email}}}
+%\whoamiemail
+
+
+
 
 %% optional information
 % profile picture
@@ -95,7 +116,9 @@
 % date of birth
 \cvbirthday{03/02/1992}
 % short address/location, use \newline if more than 1 line is required
-\cvaddress{Rua Gilberto Pattaro, 150 $\cdot$ Campinas/SP, Brazil}
+%\cvaddressone{Rua Gilberto Pattaro, 150 $\cdot$ Campinas/SP, Brazil}
+\cvaddressone{Rua Gilberto Pattaro, 150 $\boldsymbol{\cdot}$ 13084-375}
+\cvaddresstwo{Campinas, SP $\boldsymbol{\cdot}$ Brazil}
 % phone number
 \cvphone{+55 19 98810-2615}
 % personal website
@@ -107,26 +130,43 @@
 % any other custom entry
 %\cvcustomdata{\faFlag}{Chinese}
 
+%\cvline{\hline}
+%\cvline{}
+
+\cvlinkedin{https://www.linkedin.com/in/itorafael/}{linkedin.com/in/itorafael}
+\cvgithub{https://github.com/ito-rafael/}{github.com/ito-rafael}
+\cvfacebook{https://www.facebook.com/ito.rafael92}{facebook.com/ito.rafael92}
+\cvskype{}{ito.rafael92}
+
 %-------------------------------------------------------------------------------
 %                              SIDEBAR 1st PAGE
 %-------------------------------------------------------------------------------
 % add more profile sections to sidebar on first page
 \addtofrontsidebar{
 
-    %===============
-    % SOCIAL NETWORK
-    %===============
-	% social network accounts incl. proper hyperlinks
-	\profilesection{Social Network}
-		\begin{icontable}{2.5em}{1em}
-%			\social{\aiOverleafSquare}
-				%{https://de.overleaf.com/latex/templates/forty-seconds-cv/pztcktmyngsk}
-                {https://www.linkedin.com/in/itorafael/}
-				{LinkedIn}
-			\social{\faGithub}
-				{https://github.com/ito-rafael/}
-				{Github Project Page Link}
-		\end{icontable}
+%    %===============
+%    % SOCIAL NETWORK
+%    %===============
+%	% social network accounts incl. proper hyperlinks
+%	\profilesection{Social Network}
+%		\begin{icontable}{2.5em}{1em}
+%%			\social{\aiOverleafSquare}
+%				%{https://de.overleaf.com/latex/templates/forty-seconds-cv/pztcktmyngsk}
+%			\social{\faLinkedin}
+%                {https://www.linkedin.com/in/itorafael/}
+%                {linkedin.com/in/itorafael}
+%				%{LinkedIn}
+%			\social{\faGithub}
+%				{https://github.com/ito-rafael/}
+%				{github.com/ito-rafael}
+%				%{ito-rafael}
+%            \social{\faFacebookSquare}
+%                {https://www.facebook.com/ito.rafael92}
+%                {facebook.com/ito.rafael92}
+%            \social{\faSkype}
+%                {}
+%                {ito.rafael92}
+%		\end{icontable}
 
     %===============
     % LANGUAGES
@@ -163,9 +203,12 @@
 		\skill{\certificate}{2006 Honorable Mention at OBMEP}
         %--------------------------------------------------------
         \profiledivider
-        OBMEP: Brazilian Public Schools Mathematics Olympiad\\
-        OSA: UNICAMP Physics Olympiad\\
-        OMU: UNICAMP Mathematics Olympiad
+        {\scriptsize
+            OBMEP: Brazilian Public Schools Mathematics Olympiad\\
+            OSA: UNICAMP Physics Olympiad\\
+            OMU: UNICAMP Mathematics Olympiad
+            \par
+        }
 
 %	\profilesection{Hard Skills}
 %		\skill{\faBalanceScale}{Sleeping almost all day}
@@ -244,7 +287,8 @@
 \begin{cvtable}[1.5]
 	\cvitem{Jan 2016 current}{Technological Development Analyst}{CNPEM/LNLS}{Blah\medskip}
     \cvdivider
-	\cvitem{Jan 2016 Jul 2016}{Teaching Assistant}{University of Campinas}{bla alkdjasjd asdjasd asiod asoidj asoid jasdj asoidj as djaskldjaslkd jalsdjlasjda daskl djalskdlajs ldasj dlkasj daskldj alsjdasld lasdasd aslj dlasdj asl djlas ldajl dasjd asl dlasjd\medskip}
+	%\cvitem{Jan 2016 Jul 2016}{Teaching Assistant}{University of Campinas}{bla alkdjasjd asdjasd asiod asoidj asoid jasdj asoidj as djaskldjaslkd jalsdjlasjda daskl djalskdlajs ldasj dlkasj daskldj alsjdasld lasdasd aslj dlasdj asl djlas ldajl dasjd asl dlasjd\medskip}
+	\cvitem{Jan 2016 Jul 2016}{Teaching Assistant}{University of Campinas}{\blindtext\medskip}
     \cvdivider
 	\cvitem{Jun 2015 Sep 2015}{Scientific Research}{Queen Mary University of London}{blabljdbjsdl bksdjblsdblds bjsd bkljsd blksjd blksdj blsd jblsd blksdjb lksdj blkds jblskd bjsdbjksdl bjlsdjblsd jblsdb sdlk bjlds jbsdkl bdsjl bkldsj blsd lbj s dblsdb sd kbj sdlkbjdskl bjdskl jbldsj bb\medskip}
     \cvdivider
