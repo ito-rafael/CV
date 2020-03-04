@@ -680,6 +680,29 @@
 % |                <longer description>              |
 % or, if description is empty:
 % | <date>         <title>       \hfill  <location>  |
+
+%=================================================
+% command imported from altacv.cls
+%=================================================
+% cvevent
+\newcommand{\cvevent}[6]{%
+  {
+  \begin{wrapfigure}{r}{0.20\textwidth} %this figure will be at the right
+      %\centering
+      {#5}
+  \end{wrapfigure}
+  \normalsize\textbf{#1}\par}
+  \smallskip\normalsize
+  \ifstrequal{#2}{}{}{
+  \textbf{\color{sectioncolor}#2}\par
+  \smallskip}
+  \ifstrequal{#3}{}{}{{\small\makebox[0.5\linewidth][l]{\color{black!70!white}\faCalendar\hspace{0.5em}#3}}}%
+  \ifstrequal{#4}{}{}{{\small\makebox[0.5\linewidth][l]{\color{black!70!white}\faMapMarker\hspace{0.5em}#4}}}\par
+  \medskip\normalsize
+  \footnotesize{#6}
+}
+%=================================================
+
 \newcommand{\cvitem}[4]{%
 	\parbox[t]{0.14\textwidth}{\raggedright #1} &%
 	\parbox[t]{0.83\textwidth}{%
