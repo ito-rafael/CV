@@ -702,6 +702,25 @@
   \footnotesize{#6}
 }
 %=================================================
+% cvextra
+\newcommand{\cvextra}[7]{%
+  {
+  \begin{wrapfigure}{r}{0.20\textwidth} %this figure will be at the right
+      %\centering
+      {#6}
+  \end{wrapfigure}
+  \normalsize\textbf{#1}\par}
+  \smallskip\normalsize
+  \ifstrequal{#2}{}{}{
+  \textbf{\color{sectioncolor}#2}\par
+  \smallskip}
+  \ifstrequal{#3}{}{}{{\small\makebox[0.25\linewidth][l]{\color{black!70!white}\faCalendar\hspace{0.25em}#3}}}%
+  \ifstrequal{#4}{}{}{{\small\makebox[0.25\linewidth][l]{\color{black!70!white}\faClockO\hspace{0.25em}#4}}}%
+  \ifstrequal{#5}{}{}{{\small\makebox[0.25\linewidth][l]{\color{black!70!white}\faMapMarker\hspace{0.25em}#5}}}\par
+  \medskip\normalsize
+  \footnotesize{#7}
+}
+%=================================================
 
 \newcommand{\cvitem}[4]{%
 	\parbox[t]{0.14\textwidth}{\raggedright #1} &%
