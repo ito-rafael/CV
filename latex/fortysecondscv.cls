@@ -480,6 +480,12 @@
 	\hspace{#1} \cvicon{#2} ~ \parbox{\linewidth-#1-2.0em}{#3} \hfill \par
 }
 
+% space for references
+\newcommand{\cvreference}[2][0em]{
+    \parbox{\linewidth-#1-2.0em}{#2} \hfill \par
+}
+
+
 % label for wheel charts
 \newcommand{\chartlabel}[1]{%
 	\begin{tikzpicture}
