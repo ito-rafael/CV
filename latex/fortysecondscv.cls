@@ -312,7 +312,8 @@
 \newcommand*{\cvbirthday}[1]{\cvcustomdata{\faCalendar}{#1}}
 \newcommand*{\cvaddressone}[1]{\cvcustomdata{\faEnvelope}{#1}}
 \newcommand*{\cvaddresstwo}[1]{\cvcustomdata{\faMapMarker}{#1}}
-\newcommand*{\cvphone}[1]{\cvcustomdata{\faPhone}{#1}}
+%\newcommand*{\cvphone}[1]{\cvcustomdata{\faPhone}{#1}}
+\newcommand*{\cvphone}[1]{\cvcustomdata{\faWhatsapp}{#1}}
 \newcommand*{\cvsite}[1]{\cvcustomdata{\faGlobe}{\href{#1}{#1}}}
 \newcommand*{\cvmail}[1]{\cvcustomdata{\faAt}{\href{mailto:#1}{#1}}}
 
