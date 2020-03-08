@@ -32,6 +32,32 @@
 \newcommand{\profiledivider}{\textcolor{body!30}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}\\}
 %\newcommand{\divider}{\textcolor{body!30}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}}
 
+% Portuguese package (used in signature date)
+%\usepackage[portuguese]{babel}
+
+% package used to wrap text around a figure
+\usepackage{wrapfig}
+
+% provides blind text useful for test purposes
+\usepackage{blindtext}
+
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{array}
+
+% include fonts
+\pdfmapfile{=ClearSans.map}
+\pdfmapfile{=fontawesome.map}
+
+% include and use scalable cm-super fonts
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% improve word spacing and hyphenation
+\usepackage{microtype}
+\usepackage{ragged2e}
+
 % provides blind text useful for test purposes
 \usepackage{blindtext}
 
@@ -286,56 +312,75 @@
 %=======================================
 % change arraystretch (distance between items):
 %\begin{cvtable}[<arraystretch>=1]
-\begin{cvtable}[1.5]
-	\cvitem
-        {Jan 2016 current}
+%\begin{cvtable}[1.5]
+\graphicspath{{../figures/work/}}
+\newcolumntype{L}{>{\centering\arraybackslash}m{5.5cm}}
+%	%\cvitem
+    \cvevent
         {Technological Development Analyst}
         {CNPEM/LNLS}
-        {Blah\medskip}
+        {Jan 2016 current}
+        {Campinas/SP}
+        %{\hspace{2mm}\includegraphics[height=0.07\textwidth]{UNICAMP}}
+        {}
+        {Blah}
     %---------------------------------------
-    \cvdivider
+    \\\profiledivider
     %---------------------------------------
 	%\cvitem{Jan 2016 Jul 2016}{Teaching Assistant}{University of Campinas}{bla alkdjasjd asdjasd asiod asoidj asoid jasdj asoidj as djaskldjaslkd jalsdjlasjda daskl djalskdlajs ldasj dlkasj daskldj alsjdasld lasdasd aslj dlasdj asl djlas ldajl dasjd asl dlasjd\medskip}
-	\cvitem
-        {Jan 2016 Jul 2016}
+	%\cvitem
+    \cvevent
         {Teaching Assistant}
         {University of Campinas}
-        {\blindtext\medskip}
+        {Jan 2016 Jul 2016}
+        {Campinas/SP}
+        {}
+        {\blindtext}
     %---------------------------------------
-    \cvdivider
+    \\\profiledivider
     %---------------------------------------
-	\cvitem
-        {Jun 2015 Sep 2015}
+	%\cvitem
+    \cvevent
         {Scientific Research}
         {Queen Mary University of London}
-        {blabljdbjsdl bksdjblsdblds bjsd bkljsd blksjd blksdj blsd jblsd blksdjb lksdj blkds jblskd bjsdbjksdl bjlsdjblsd jblsdb sdlk bjlds jbsdkl bdsjl bkldsj blsd lbj s dblsdb sd kbj sdlkbjdskl bjdskl jbldsj bb\medskip}
+        {Jun 2015 Sep 2015}
+        {London}
+        {}
+        {blabljdbjsdl bksdjblsdblds bjsd bkljsd blksjd blksdj blsd jblsd blksdjb lksdj blkds jblskd bjsdbjksdl bjlsdjblsd jblsdb sdlk bjlds jbsdkl bdsjl bkldsj blsd lbj s dblsdb sd kbj sdlkbjdskl bjdskl jbldsj b}
     %---------------------------------------
-    \cvdivider
+    \\\profiledivider
     %---------------------------------------
 	%\cvitem{Jan 2010 Jun 2010}{Electronics intern}{CPqD - Telecommunications Research and Development Centre}{bla\medskip}
-	\cvitem
-        {Jan 2010 Jun 2010}
+	%\cvitem
+    \cvevent
         {Electronics intern}
         {CPqD - Telecommunications Research and Development Centre}
-        {bla\medskip}
+        {Jan 2010 Jun 2010}
+        {Campinas/SP}
+        {}
+        {bla}
     %---------------------------------------
-    \cvdivider
+    \\\profiledivider
     %---------------------------------------
-    \cvitem
-        {Jan 2009 Dec 2009}
+    %\cvitem
+    \cvevent
         {Teaching Assistant}
         {Technical College of Campinas}
-        {bla\medskip}
+        {Jan 2009 Dec 2009}
+        {Campinas/SP}
+        {}
+        {bla}
     %---------------------------------------
-    \cvdivider
+    \\\profiledivider
     %---------------------------------------
-	\cvitem
-        {2010 -- 2015}
-        {Bamboo Broker}
-        {Stock Exchange}
-        {Continuously achieving better bamboo bangs for the buck.}
+%	%\cvitem
+%    \cvevent
+%        {2010 -- 2015}
+%        {Bamboo Broker}
+%        {Stock Exchange}
+%        {Continuously achieving better bamboo bangs for the buck.}
     %---------------------------------------
-\end{cvtable}
+%\end{cvtable}
 
 %=======================================
 \cvsection{Education}
