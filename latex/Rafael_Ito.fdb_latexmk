@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1583634307 "Rafael_Ito.tex" "Rafael_Ito.pdf" "Rafael_Ito" 1583634308
+["pdflatex"] 1583762819 "Rafael_Ito.tex" "Rafael_Ito.pdf" "Rafael_Ito" 1583762820
   "../figures/awards/medal_golden_red.png" 1577309023 19315 b79c61e49fac42f2f5b7aa7b677d993e ""
   "../figures/awards/medal_silver_blue.png" 1565443025 11650 958c85fa9e68c6ae2c359b2e509eceb4 ""
   "../figures/awards/merit.png" 1577309214 26219 bff337cd7f575618a4583bb5400fa020 ""
@@ -11,7 +11,7 @@
   "../figures/languages/jp-JP.jpg" 1565443025 106534 b1a8d44522358fbcabd5300fdbd65849 ""
   "../figures/languages/pt-BR.png" 1565443025 62951 fb649c790451cbd767f3a43e64439898 ""
   "../figures/profile.jpeg" 1576688270 112788 109f9af1299f5da72946d0920c5af302 ""
-  "/dev/null" 1583627012 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/dev/null" 1583752073 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/home/rafael/.texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1576676982 334320 d10c2901904b0a572e57c10ac4826b67 ""
   "/usr/local/share/texmf/fonts/enc/dvips/clearsans/clr_zxbkm4.enc" 1576668031 3006 bee092328c2beafee1f162d4e38aad34 ""
   "/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1576672189 1687 f004baecce60175c6453d0e3f808cf20 ""
@@ -243,13 +243,13 @@
   "/usr/share/texmf-dist/tex/latex/xhfill/xhfill.sty" 1572592815 1712 b4c067e9b422ce384922a5e2cf62db88 ""
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1572595918 4962 9c1069474ff71dbc47d5006555e352d3 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1572595918 33301 a3134070eacafb10b1f371612ce2650d ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1579015591 8044939 b78c3820712f5a9fa85ce1651d8a38de ""
-  "Rafael_Ito.aux" 1583634308 776 c2ff8d788e1d50dd54554857780e80f7 "pdflatex"
-  "Rafael_Ito.out" 1583634307 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Rafael_Ito.tex" 1583634306 17222 c519e39029dcc92854042e732241a40f ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1583668722 8044938 dc3ffa4cd841b9740f408e779b24ba23 ""
+  "Rafael_Ito.aux" 1583762820 776 c2ff8d788e1d50dd54554857780e80f7 "pdflatex"
+  "Rafael_Ito.out" 1583762820 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Rafael_Ito.tex" 1583762819 17237 277a31b7352153784051c8ecd2c38bdf ""
   "fortysecondscv.cls" 1583543626 24813 0e9db3e893397ed14b24318b5446741e ""
   (generated)
-  "Rafael_Ito.log"
-  "Rafael_Ito.pdf"
   "Rafael_Ito.out"
+  "Rafael_Ito.pdf"
   "Rafael_Ito.aux"
+  "Rafael_Ito.log"

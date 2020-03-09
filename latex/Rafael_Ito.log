@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.1.14)  7 MAR 2020 23:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.3.8)  9 MAR 2020 11:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1381,14 +1381,14 @@ Package rerunfilecheck Info: File `Rafael_Ito.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  34687 strings out of 492167
- 641545 string characters out of 6131558
- 758138 words of memory out of 5000000
+ 641545 string characters out of 6131559
+ 758148 words of memory out of 5000000
  38467 multiletter control sequences out of 15000+600000
  645660 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,17n,71p,797b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/share/texmf/fonts/enc/dvips/clearsans/clr_zxbkm4.enc}{/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Bold.pfb></usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Italic.pfb></usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></usr/local/share/texmf/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb>
-Output written on Rafael_Ito.pdf (3 pages, 503852 bytes).
+Output written on Rafael_Ito.pdf (3 pages, 504012 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
