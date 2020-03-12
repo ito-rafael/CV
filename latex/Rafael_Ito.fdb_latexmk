@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1584046551 "Rafael_Ito.tex" "Rafael_Ito.pdf" "Rafael_Ito" 1584046553
+["pdflatex"] 1584047046 "Rafael_Ito.tex" "Rafael_Ito.pdf" "Rafael_Ito" 1584047048
   "../figures/awards/medal_golden_red.png" 1577309023 19315 b79c61e49fac42f2f5b7aa7b677d993e ""
   "../figures/awards/medal_silver_blue.png" 1565443025 11650 958c85fa9e68c6ae2c359b2e509eceb4 ""
   "../figures/awards/merit.png" 1577309214 26219 bff337cd7f575618a4583bb5400fa020 ""
@@ -14,6 +14,7 @@
   "../figures/languages/jp-JP.jpg" 1565443025 106534 b1a8d44522358fbcabd5300fdbd65849 ""
   "../figures/languages/pt-BR.png" 1565443025 62951 fb649c790451cbd767f3a43e64439898 ""
   "../figures/profile.jpeg" 1576688270 112788 109f9af1299f5da72946d0920c5af302 ""
+  "../figures/work/CNPEM.png" 1565443025 29969 f73a1a96b67cc09b6b05209836450973 ""
   "../figures/work/CPqD.png" 1565443025 41556 28a81e376555263f5dd6fc61e8149c0f ""
   "../figures/work/Cotuca.png" 1565443025 3674 49e4e2e0e35735d9dab4441d70d4c1a9 ""
   "../figures/work/QMUL.png" 1565443025 114010 645fe42f29a6049673c157f9505f5999 ""
@@ -251,12 +252,12 @@
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1572595918 4962 9c1069474ff71dbc47d5006555e352d3 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1572595918 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1583668722 8044938 dc3ffa4cd841b9740f408e779b24ba23 ""
-  "Rafael_Ito.aux" 1584046552 776 c2ff8d788e1d50dd54554857780e80f7 "pdflatex"
-  "Rafael_Ito.out" 1584046551 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Rafael_Ito.tex" 1584046528 18643 fad594cc218c23674428558773f6c15e ""
+  "Rafael_Ito.aux" 1584047048 776 c2ff8d788e1d50dd54554857780e80f7 "pdflatex"
+  "Rafael_Ito.out" 1584047047 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Rafael_Ito.tex" 1584047030 18642 2fd0f87d9c144baa7dea22561ea416a6 ""
   "fortysecondscv.cls" 1583543626 24813 0e9db3e893397ed14b24318b5446741e ""
   (generated)
   "Rafael_Ito.pdf"
   "Rafael_Ito.out"
-  "Rafael_Ito.aux"
   "Rafael_Ito.log"
+  "Rafael_Ito.aux"
