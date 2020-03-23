@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.3.8)  21 MAR 2020 09:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.3.8)  23 MAR 2020 20:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1312,112 +1312,130 @@ Underfull \hbox (badness 10000) in paragraph at lines 364--374
 
  []
 
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bx/n' in size <8> not available
+(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 377.
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/b/n' in size <8> not available
+(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 377.
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bold/n' will be
+(Font)              scaled to size 8.0pt on input line 377.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 380.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 380.
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/it' in size <8> not available
+(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 384.
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
+(Font)              scaled to size 8.0pt on input line 384.
+
+Overfull \hbox (47.6549pt too wide) in alignment at lines 380--393
+[] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--414
+
+ []
+
 [1
 
  <../figures/education/Unicamp.png> <../figures/education/QMUL.png> <../figures/education/Cotuca.png> <../figures/profile.jpeg> <../figures/languages/en-US.png> <../figures/languages/pt-BR.png> <../figures/languages/it-IT.png> <../figures/languages/fr-FR.png> <../figures/languages/es-ES.jpg> <../figures/languages/jp-JP.jpg> <../figures/awards/medal_golden_red.png> <../figures/awards/medal_silver_blue.png> <../figures/awards/merit_2.png> <../figures/awards/merit.png>]
-LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bx/n' in size <8> not available
-(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 420.
-LaTeX Font Info:    Font shape `T1/ClearSans-TLF/b/n' in size <8> not available
-(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 420.
-LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bold/n' will be
-(Font)              scaled to size 8.0pt on input line 420.
-<../figures/work/CNPEM.png, id=54, 523.4757pt x 158.7531pt>
+<../figures/work/CNPEM.png, id=55, 523.4757pt x 158.7531pt>
 File: ../figures/work/CNPEM.png Graphic file (type png)
 <use ../figures/work/CNPEM.png>
-Package pdftex.def Info: ../figures/work/CNPEM.png  used on input line 434.
+Package pdftex.def Info: ../figures/work/CNPEM.png  used on input line 436.
 (pdftex.def)             Requested size: 85.51509pt x 25.93434pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--434
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 []
  []
 
 
-Overfull \hbox (11.42583pt too wide) in paragraph at lines 434--434
+Overfull \hbox (11.42583pt too wide) in paragraph at lines 436--436
 [] 
  []
 
-<../figures/work/Unicamp.png, id=55, 481.8pt x 481.8pt>
+<../figures/work/Unicamp.png, id=56, 481.8pt x 481.8pt>
 File: ../figures/work/Unicamp.png Graphic file (type png)
 <use ../figures/work/Unicamp.png>
-Package pdftex.def Info: ../figures/work/Unicamp.png  used on input line 446.
+Package pdftex.def Info: ../figures/work/Unicamp.png  used on input line 448.
 (pdftex.def)             Requested size: 25.92932pt x 25.93434pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--446
+Underfull \hbox (badness 10000) in paragraph at lines 436--448
 
  []
 
-<../figures/work/QMUL.png, id=56, 344.0052pt x 104.3097pt>
+<../figures/work/QMUL.png, id=57, 344.0052pt x 104.3097pt>
 File: ../figures/work/QMUL.png Graphic file (type png)
 <use ../figures/work/QMUL.png>
-Package pdftex.def Info: ../figures/work/QMUL.png  used on input line 457.
+Package pdftex.def Info: ../figures/work/QMUL.png  used on input line 459.
 (pdftex.def)             Requested size: 85.52866pt x 25.93434pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--457
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
 []
  []
 
 
-Overfull \hbox (11.43939pt too wide) in paragraph at lines 457--457
+Overfull \hbox (11.43939pt too wide) in paragraph at lines 459--459
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--457
+Underfull \hbox (badness 10000) in paragraph at lines 448--459
 
  []
 
-<../figures/work/CPqD.png, id=57, 251.7405pt x 121.4136pt>
+<../figures/work/CPqD.png, id=58, 251.7405pt x 121.4136pt>
 File: ../figures/work/CPqD.png Graphic file (type png)
 <use ../figures/work/CPqD.png>
-Package pdftex.def Info: ../figures/work/CPqD.png  used on input line 469.
+Package pdftex.def Info: ../figures/work/CPqD.png  used on input line 471.
 (pdftex.def)             Requested size: 53.76974pt x 25.93434pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--469
+Underfull \hbox (badness 10000) in paragraph at lines 459--471
 
  []
 
-<../figures/work/Cotuca.png, id=58, 87.32625pt x 87.32625pt>
+<../figures/work/Cotuca.png, id=59, 87.32625pt x 87.32625pt>
 File: ../figures/work/Cotuca.png Graphic file (type png)
 <use ../figures/work/Cotuca.png>
-Package pdftex.def Info: ../figures/work/Cotuca.png  used on input line 480.
+Package pdftex.def Info: ../figures/work/Cotuca.png  used on input line 482.
 (pdftex.def)             Requested size: 25.93423pt x 25.93434pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--480
+Underfull \hbox (badness 10000) in paragraph at lines 471--482
 
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <12> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 534.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 536.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 534.
+(Font)              scaled to size 12.0pt on input line 536.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bx/n' in size <12> not available
-(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 534.
+(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 536.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/b/n' in size <12> not available
-(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 534.
+(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 536.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 534.
+(Font)              scaled to size 12.0pt on input line 536.
 [2 <../figures/work/CNPEM.png> <../figures/work/Unicamp.png> <../figures/work/QMUL.png> <../figures/work/CPqD.png> <../figures/work/Cotuca.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 536.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 536.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 538.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 538.
  (./Rafael_Ito.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 536.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 536.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 538.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 538.
 Package rerunfilecheck Info: File `Rafael_Ito.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34690 strings out of 492167
- 642031 string characters out of 6131559
- 751099 words of memory out of 5000000
- 38483 multiletter control sequences out of 15000+600000
- 630819 words of font info for 81 fonts, out of 8000000 for 9000
+ 34732 strings out of 492167
+ 642725 string characters out of 6131559
+ 752707 words of memory out of 5000000
+ 38512 multiletter control sequences out of 15000+600000
+ 645276 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,17n,71p,797b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/share/texmf/fonts/enc/dvips/clearsans/clr_zxbkm4.enc}{/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Bold.pfb></usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></usr/local/share/texmf/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb>
-Output written on Rafael_Ito.pdf (2 pages, 780278 bytes).
+{/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/share/texmf/fonts/enc/dvips/clearsans/clr_zxbkm4.enc}{/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Bold.pfb></usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Italic.pfb></usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></usr/local/share/texmf/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb>
+Output written on Rafael_Ito.pdf (2 pages, 792423 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 95 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
- 11372 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 14444 words of extra memory for PDF output out of 17280 (max. 10000000)
 
