@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1589151518 "Rafael_Ito.tex" "Rafael_Ito.pdf" "Rafael_Ito" 1589151520
+["pdflatex"] 1589152547 "Rafael_Ito.tex" "Rafael_Ito.pdf" "Rafael_Ito" 1589152549
   "../figures/awards/medal_golden_red.png" 1577309023 19315 b79c61e49fac42f2f5b7aa7b677d993e ""
   "../figures/awards/medal_silver_blue.png" 1565443025 11650 958c85fa9e68c6ae2c359b2e509eceb4 ""
   "../figures/awards/merit.png" 1577309214 26219 bff337cd7f575618a4583bb5400fa020 ""
@@ -101,8 +101,10 @@
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb" 1572595918 28028 fcd4f6ddbf905cdea8842b1a7b14335f ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmmi5.pfb" 1572595918 31443 ba2241b179aa231f73e052863720cb42 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb" 1572595918 30789 be3ebdf20b6442cc4aaf81a81e17daf4 ""
+  "/usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb" 1572595918 30635 833ec815d446ec453a4913fc26d24cbc ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmsy5.pfb" 1572595918 28210 987b40585e9bcf6463d6155bb4219492 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb" 1572595918 27941 d1f5d03f61a46c3fcc3a2ba904ddda52 ""
+  "/usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb" 1572595918 27802 5c876bb2c4040caaf035d60bd74a86bd ""
   "/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1572595918 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1572595918 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/share/texmf-dist/tex/generic/oberdiek/atbegshi.sty" 1572595918 24580 144573175d90c8e36676f97ae1d11ec2 ""
@@ -273,12 +275,12 @@
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1572595918 4962 9c1069474ff71dbc47d5006555e352d3 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1572595918 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1588776570 8044938 d53b80516de230b84454862c99416847 ""
-  "Rafael_Ito.aux" 1589151519 738 2294f00df80345479d33d7bf14abee02 "pdflatex"
-  "Rafael_Ito.out" 1589151518 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Rafael_Ito.tex" 1589151517 42003 cd9464bc2153aa01facafab1f8f0b0cc ""
+  "Rafael_Ito.aux" 1589152549 738 2294f00df80345479d33d7bf14abee02 "pdflatex"
+  "Rafael_Ito.out" 1589152547 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Rafael_Ito.tex" 1589152547 42029 c177f29bb213411fd55cc59aef1f252f ""
   "fortysecondscv.cls" 1583543626 24813 0e9db3e893397ed14b24318b5446741e ""
   (generated)
-  "Rafael_Ito.aux"
   "Rafael_Ito.out"
   "Rafael_Ito.pdf"
   "Rafael_Ito.log"
+  "Rafael_Ito.aux"
