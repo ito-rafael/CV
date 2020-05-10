@@ -432,12 +432,12 @@ INPUT ../figures/education/Unicamp.png
 INPUT /usr/local/share/texmf/fonts/tfm/intel/clearsans/ClearSans-tlf-t1.tfm
 INPUT /usr/local/share/texmf/fonts/tfm/public/fontawesome/FontAwesome--fontawesometwo.tfm
 INPUT /usr/local/share/texmf/fonts/tfm/intel/clearsans/ClearSans-tlf-t1.tfm
-INPUT ../figures/education/Unicamp.png
-INPUT ../figures/education/Unicamp.png
-INPUT ../figures/education/QMUL.png
-INPUT ../figures/education/QMUL.png
-INPUT ../figures/education/QMUL.png
 INPUT /usr/local/share/texmf/fonts/tfm/intel/clearsans/ClearSans-tlf-t1.tfm
+INPUT ../figures/education/Unicamp.png
+INPUT ../figures/education/Unicamp.png
+INPUT ../figures/education/QMUL.png
+INPUT ../figures/education/QMUL.png
+INPUT ../figures/education/QMUL.png
 INPUT ../figures/education/Cotuca.png
 INPUT ../figures/education/Cotuca.png
 INPUT ../figures/education/Cotuca.png
