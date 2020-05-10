@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1589124441 "Rafael_Ito.tex" "Rafael_Ito.pdf" "Rafael_Ito" 1589124443
+["pdflatex"] 1589133216 "Rafael_Ito.tex" "Rafael_Ito.pdf" "Rafael_Ito" 1589133218
   "../figures/awards/medal_golden_red.png" 1577309023 19315 b79c61e49fac42f2f5b7aa7b677d993e ""
   "../figures/awards/medal_silver_blue.png" 1565443025 11650 958c85fa9e68c6ae2c359b2e509eceb4 ""
   "../figures/awards/merit.png" 1577309214 26219 bff337cd7f575618a4583bb5400fa020 ""
@@ -256,12 +256,12 @@
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1572595918 4962 9c1069474ff71dbc47d5006555e352d3 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1572595918 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1588776570 8044938 d53b80516de230b84454862c99416847 ""
-  "Rafael_Ito.aux" 1589124443 738 2294f00df80345479d33d7bf14abee02 "pdflatex"
-  "Rafael_Ito.out" 1589124442 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Rafael_Ito.tex" 1589124439 25905 7614d33b8f56e634e3379e027ed01d0e ""
+  "Rafael_Ito.aux" 1589133218 738 2294f00df80345479d33d7bf14abee02 "pdflatex"
+  "Rafael_Ito.out" 1589133217 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Rafael_Ito.tex" 1589133215 26092 948284880f7bc55572b08ec7e9f0ea27 ""
   "fortysecondscv.cls" 1583543626 24813 0e9db3e893397ed14b24318b5446741e ""
   (generated)
-  "Rafael_Ito.aux"
+  "Rafael_Ito.log"
   "Rafael_Ito.pdf"
   "Rafael_Ito.out"
-  "Rafael_Ito.log"
+  "Rafael_Ito.aux"
