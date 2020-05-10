@@ -257,10 +257,12 @@ INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT /usr/share/texmf-dist/tex/latex/multirow/multirow.sty
-INPUT /usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/share/texmf-dist/tex/latex/makecell/makecell.sty
 INPUT /usr/share/texmf-dist/tex/latex/makecell/makecell.sty
+INPUT /usr/share/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /usr/share/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /usr/share/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texmf-dist/tex/latex/float/float.sty
 INPUT /home/rafael/.texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/share/texmf/fonts/map/dvips/clearsans/ClearSans.map
 INPUT /usr/local/share/texmf/fonts/map/dvips/fontawesome/fontawesome.map
@@ -435,6 +437,7 @@ INPUT ../figures/education/Unicamp.png
 INPUT ../figures/education/QMUL.png
 INPUT ../figures/education/QMUL.png
 INPUT ../figures/education/QMUL.png
+INPUT /usr/local/share/texmf/fonts/tfm/intel/clearsans/ClearSans-tlf-t1.tfm
 INPUT ../figures/education/Cotuca.png
 INPUT ../figures/education/Cotuca.png
 INPUT ../figures/education/Cotuca.png
@@ -454,6 +457,8 @@ INPUT /usr/local/share/texmf/fonts/vf/intel/clearsans/ClearSans-Bold-tlf-t1.vf
 INPUT /usr/local/share/texmf/fonts/tfm/intel/clearsans/ClearSans-Bold-tlf-t1--base.tfm
 INPUT /usr/local/share/texmf/fonts/vf/intel/clearsans/ClearSans-Bold-tlf-t1.vf
 INPUT /usr/local/share/texmf/fonts/tfm/intel/clearsans/ClearSans-Bold-tlf-t1--base.tfm
+INPUT /usr/local/share/texmf/fonts/vf/intel/clearsans/ClearSans-tlf-t1.vf
+INPUT /usr/local/share/texmf/fonts/tfm/intel/clearsans/ClearSans-tlf-t1--base.tfm
 INPUT /usr/local/share/texmf/fonts/vf/intel/clearsans/ClearSans-tlf-t1.vf
 INPUT /usr/local/share/texmf/fonts/tfm/intel/clearsans/ClearSans-tlf-t1--base.tfm
 INPUT /usr/local/share/texmf/fonts/vf/intel/clearsans/ClearSans-tlf-t1.vf
@@ -498,9 +503,12 @@ INPUT /usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesomethree.enc
 INPUT /usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesomeone.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/local/share/texmf/fonts/enc/dvips/clearsans/clr_zxbkm4.enc
+INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesometwo.enc
 INPUT /usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Bold.pfb
 INPUT /usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Italic.pfb
 INPUT /usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Regular.pfb
 INPUT /usr/local/share/texmf/fonts/type1/public/fontawesome/FontAwesome.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmmi5.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmsy5.pfb
