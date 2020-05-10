@@ -58,6 +58,13 @@
 % add font sizes \HUGE and \ssmall
 %\usepackage[11pt]{moresize}
 
+% multiple columns
+\usepackage{multicol}
+\usepackage{vwcol}
+
+% adjust list spacing
+\usepackage{enumitem}
+
 % include fonts
 \pdfmapfile{=ClearSans.map}
 \pdfmapfile{=fontawesome.map}
@@ -265,48 +272,63 @@
 %                              SIDEBAR 2nd PAGE
 %-------------------------------------------------------------------------------
 \addtobacksidebar{
-	\profilesection{About Me}
-	\aboutme{
-		The giant panda is a terrestrial animal and primarily spends its life
-		roaming and feeding in the bamboo forests of the Qinling Mountains and in
-		the hilly province of Sichuan.
-	}
 
-	\profilesection{Diagrams}
-	\chartlabel{Bubble Diagram}
-	\begin{figure}\centering
-		\smartdiagram[bubble diagram]{
-			\textcolor{white}{\textbf{Being a}} \\
-			\textcolor{white}{\textbf{Panda}}, % center bubble
-			\textcolor{black!90}{Eating},
-			\textcolor{black!90}{Sleeping},
-			\textcolor{black!90}{Rolling},
-			\textcolor{black!90}{Playing},
-			\textcolor{black!90}{Chilling}
-		}
-	\end{figure}
+    %===============
+    % LANGUAGES
+    %===============
+	% include gosquare national flags from https://github.com/gosquared/flags;
+	% naming according to ISO 3166-1 alpha-2 country codes
+    \graphicspath{{../figures/languages/}}
+	\profilesection{Languages}
+		\pointskill{\flag{en-US}}{English}{5}
+		\pointskill{\flag{pt-BR}}{Portuguese}{5}
+	    \pointskill{\flag{it-IT}}{Italian}{4}
+    	\pointskill{\flag{fr-FR}}{French}{2}
+    	\pointskill{\flag{es-ES}}{Spanish}{2}
+    	\pointskill{\flag{jp-JP}}{Japanese}{1}
 
-	\chartlabel{Wheel Chart}
-
-	\wheelchart{4em}{2em}{%
-	20/3em/maincolor!50/Chill,
-	15/3em/maincolor!15/Play,
-	30/4em/maincolor!40/Sleep,
-	20/3em/maincolor!20/Eat
-	}
-
-	\profilesection{Barskills}
-	\barskill{\faSkyatlas}{Wearing asian rice hats}{60}
-	\barskill{\faImage}{Playing Chess}{30}
-	\barskill{\faMusic}{Playing the bamboo flute}{50}
-
-	\profilesection{Memberships}
-	\begin{memberships}
-        \membership[4em]{../figures/logo.png}{PandaScience.net}
-        \membership[4em]{../figures/logo.png}{Some long text spanning over more than
-			only one line}
-            \membership[4em]{../figures/logo.png}{\rule{\linewidth}{1pt}}
-	\end{memberships}
+%	\profilesection{About Me}
+%	\aboutme{
+%		The giant panda is a terrestrial animal and primarily spends its life
+%		roaming and feeding in the bamboo forests of the Qinling Mountains and in
+%		the hilly province of Sichuan.
+%	}
+%
+%	\profilesection{Diagrams}
+%	\chartlabel{Bubble Diagram}
+%	\begin{figure}\centering
+%		\smartdiagram[bubble diagram]{
+%			\textcolor{white}{\textbf{Being a}} \\
+%			\textcolor{white}{\textbf{Panda}}, % center bubble
+%			\textcolor{black!90}{Eating},
+%			\textcolor{black!90}{Sleeping},
+%			\textcolor{black!90}{Rolling},
+%			\textcolor{black!90}{Playing},
+%			\textcolor{black!90}{Chilling}
+%		}
+%	\end{figure}
+%
+%	\chartlabel{Wheel Chart}
+%
+%	\wheelchart{4em}{2em}{%
+%	20/3em/maincolor!50/Chill,
+%	15/3em/maincolor!15/Play,
+%	30/4em/maincolor!40/Sleep,
+%	20/3em/maincolor!20/Eat
+%	}
+%
+%	\profilesection{Barskills}
+%	\barskill{\faSkyatlas}{Wearing asian rice hats}{60}
+%	\barskill{\faImage}{Playing Chess}{30}
+%	\barskill{\faMusic}{Playing the bamboo flute}{50}
+%
+%	\profilesection{Memberships}
+%	\begin{memberships}
+%        \membership[4em]{../figures/logo.png}{PandaScience.net}
+%        \membership[4em]{../figures/logo.png}{Some long text spanning over more than
+%			only one line}
+%            \membership[4em]{../figures/logo.png}{\rule{\linewidth}{1pt}}
+%	\end{memberships}
 
     %===============
     % REFERENCES
@@ -353,7 +375,7 @@
         {Jan 2017 -- current}
         {Campinas/SP}
         {\hspace{2mm}\includegraphics[height=0.07\textwidth]{Unicamp}}
-        {Part-time Masters degree.}
+        {Part-time Masters degree without being officially enrolled.
         %-------------------
         % set row color
         \newcommand{\rowgray}{\rowcolor[gray]{.95}}
@@ -430,12 +452,12 @@
                     Eleri Cardozo                               &&\\ 
                     %-------------------
                     \rowgray
-                    \multirow{-2}{*}{IA368W}                     & 
+                    \multirow{-2}{*}{IA368W}                    & 
                     \hspace{1mm} $\hookrightarrow$ Métodos Estocásticos Para Robótica Móvel &
-                    \multirow{-2}{*}{4}                          &
+                    \multirow{-2}{*}{4}                         &
                     Eric Rohmer                                 &
-                    \multirow{-2}{*}{1s2017}                     & 
-                    \multirow{-2}{*}{A}                          \\
+                    \multirow{-2}{*}{1s2017}                    & 
+                    \multirow{-2}{*}{A}                         \\
                     %=======================================
                     \hline
                     %-------------------
@@ -449,11 +471,16 @@
                     & \hspace{1mm} $\hookrightarrow$ Sensores, Condicionamento e Aquisição de Dados &&&&\\
                     %=======================================
                     \hline
+                    \multicolumn{6}{l}{ }\\
+                    \multicolumn{6}{r}{*table information in Portuguese}
+                    %=======================================
                 \end{tabular}
             \end{center}
             %\caption{}
             %\label{tab:}
         \end{table}
+        }
+    \vspace{-8mm}
 
     %---------------------------------------
     \profiledivider
@@ -464,7 +491,8 @@
         {Jan 2011 -- Dec 2016}
         {Campinas/SP}
         {\hspace{2mm}\includegraphics[height=0.07\textwidth]{Unicamp}}
-        {}
+        { 
+        \vspace{-2mm}
         % set column separator
         \setlength{\tabcolsep}{3pt}
         \begin{table}[H]
@@ -487,11 +515,16 @@
                     & \hspace{1mm} $\hookrightarrow$ Curso Teórico-Prático de Redes Neurais Convolucionais &&&&\\
                     %=======================================
                     \hline
+                    \multicolumn{6}{l}{ }\\
+                    \multicolumn{6}{r}{*table information in Portuguese}
+                    %=======================================
                  \end{tabular}
             \end{center}
             %\caption{}
             %\label{tab:}
         \end{table}
+        }
+    \vspace{-8mm}
 
     %---------------------------------------
     \profiledivider
@@ -516,27 +549,270 @@
         {Selected to work as a Teaching Assistant of the technical course.}
 
 %=======================================
-\cvsection{Publications}
+\cvsection{Machine Learning Portfolio}
 %=======================================
-\begin{cvtable}
-	\cvpubitem
-        %http://icalepcs2019.vrws.de/papers/wempr003.pdf
-        {Exploring Embedded Systems' Dedicated Cores for Real-Time Applications}
-        {P. H. Nallin, G. R. S. Franco, R. C. Ito, and A. R. D. Rodrigues}
-		{17th Int. Conf. on Accelerator and Large Experimental Physics Control Systems (ICALEPCS'19)}
-        {October 2019}
-        {New York, USA}
+%-------------------
+% change item symbols
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+\renewcommand{\labelitemiv}{\textbullet}
+%-------------------
+% include images path
+\graphicspath{{../figures/machine-learning-portfolio/}}
+% GitHub icon
+\newcommand{\github}[1]{\href{#1}{\faGithub}}
+% Google Colab icon
+\newcommand{\colab}[1]{\href{#1}{\includegraphics[height=1em]{colab}}}
+%-------------------
+%\begin{multicols}{2}
+%\begin{vwcol}[widths={0.45,0.55}, sep=.8cm, justify=flush,rule=0pt,indent=1em]
+\begin{minipage}[t]{0.45\linewidth}
+
+\small
+\textbf{\color{sectioncolor}Jupyter notebooks:}\\\\
+\scriptsize
+%---------------------------------------
+\textbf{\underline{Computer Vision:}}
+%---------------------------------------
+\begin{itemize}[leftmargin=*,labelindent=3mm,labelsep=1mm]
     %---------------------------------------
-	\cvpubitem
-        %http://icalepcs2019.vrws.de/papers/mopha031.pdf
-        {Software and Hardware Design for Controls Infrastructure at Sirius Light Source}
-        {G. R. S. Franco et al.}
-        {17th Int. Conf. on Accelerator and Large Experimental Physics Control Systems (ICALEPCS'19)}
-        {October 2019}
-        {New York, USA}
-\end{cvtable}
-%
-%
+    \item MNIST: Linear Classifier
+        \hfill
+        \github{https://github.com/ito-rafael/machine-learning/blob/master/notebooks/computer\%20vision/MNIST\%20-\%20Linear.ipynb}
+        \hspace{0.1mm}
+        \colab{https://colab.research.google.com/drive/1QTgLwLK3BEfQV0fi_HasQsL1Zm-6l4A4?usp=sharing}
+    %---------------------------------------
+    \item MNIST: Extreme Learning Machine (ELM)
+        \hfill
+        \github{https://github.com/ito-rafael/machine-learning/blob/master/notebooks/computer\%20vision/MNIST\%20-\%20ELM.ipynb}
+        \hspace{0.1mm}
+        \colab{https://colab.research.google.com/drive/1FUbVaGFz9UmNx9NP45wHZC0Of7WMz75r?usp=sharing}
+    %---------------------------------------
+    \item MNIST: Multilayer Perceptron (MLP)
+        \hfill
+        \github{https://github.com/ito-rafael/machine-learning/blob/master/notebooks/computer\%20vision/MNIST\%20-\%20MLP.ipynb}
+        \hspace{0.1mm}
+        \colab{https://colab.research.google.com/drive/1OKWU4uYmgj7YWWC8o2UKolOPtqimSBfK?usp=sharing}
+    %---------------------------------------
+    \item MNIST: ConvNet (CNN)
+        \hfill
+        \github{https://github.com/ito-rafael/machine-learning/blob/master/notebooks/computer\%20vision/MNIST\%20-\%20ConvNet.ipynb}
+        \hspace{0.1mm}
+        \colab{https://colab.research.google.com/drive/1Ne6y2G_rsH4bYoItFveRA29N0NZ9ZZL_?usp=sharing}
+    %---------------------------------------
+    \item Transfer Learning: Cats and Dogs
+        \hfill
+        \github{https://github.com/ito-rafael/machine-learning/blob/master/notebooks/computer\%20vision/Transfer\%20Learning\%20-\%20Cats\%20\%26\%20Dogs.ipynb}
+        \hspace{0.1mm}
+        \colab{https://colab.research.google.com/drive/1okJH91odJWQXn5pScQfVyjkAYTvH06Sk}
+    %---------------------------------------
+    \item Transfer Learning (last layer): Fruits360
+        \hfill
+        \github{https://github.com/ito-rafael/machine-learning/blob/master/notebooks/computer\%20vision/Transfer\%20Learning\%20-\%20Fruits360\%20(only\%20last\%20layer).ipynb}
+        \hspace{0.1mm}
+        \colab{https://colab.research.google.com/drive/18d_M9U0uxQ0lAOqoiHA18ekjQq4xNX4D}
+    %---------------------------------------
+    \item Transfer Learning (fine tuning): Fruits360
+        \hfill
+        \github{https://github.com/ito-rafael/machine-learning/blob/master/notebooks/computer\%20vision/Transfer\%20Learning\%20-\%20Fruits360\%20(fine-tunning).ipynb}
+        \hspace{0.1mm}
+        \colab{https://colab.research.google.com/drive/1R9xNZk7E1C-_5x_AW_r2PA5NDBrNqKEb}
+    %---------------------------------------
+\end{itemize}
+\vspace{2mm}
+
+%---------------------------------------
+\textbf{\underline{Natural Language Processing (NLP):}}
+%---------------------------------------
+\begin{itemize}[leftmargin=*,labelindent=3mm,labelsep=1mm]
+    %---------------------------------------
+    \item Language Model
+        \hfill
+        \github{https://github.com/ito-rafael/IA376E-NLP_DeepLearning-1s2020/blob/master/Aula\%203/Language_Model_(Rafael_Ito).ipynb}
+        \hspace{0.1mm}
+        \colab{https://colab.research.google.com/drive/1bN7PZKTg5tNFbshVDpeDs2SyO0ry7t-g}
+    %---------------------------------------
+    \item Sentiment Analysis (IMDb dataset) using:
+    \begin{itemize}[leftmargin=*,labelindent=2mm,labelsep=1mm]
+        %-------------------
+        \item Bag-of-Words
+            \hfill
+            \github{https://github.com/ito-rafael/IA376E-NLP_DeepLearning-1s2020/blob/master/Aula\%202/IMDb_Sentiment_analysis_(Rafael_Ito).ipynb}
+            \hspace{0.1mm}
+            \colab{https://colab.research.google.com/drive/1CTPhLShW60HhVE0zzQFTq45jRiEKPKcR}
+        %-------------------
+        \item TF-IDF
+            \hfill
+            \github{https://github.com/ito-rafael/IA376E-NLP_DeepLearning-1s2020/blob/master/Aula\%204/IMDb_Sentiment_analysis_with_(Rafael_Ito).ipynb}
+            \hspace{0.1mm}
+            \colab{https://colab.research.google.com/drive/1ynG17D67-hi78xPcEkHzxalsaMmut9z6}
+        %-------------------
+        \item Simplified Self-Attention
+            \hfill
+            \github{https://github.com/ito-rafael/IA376E-NLP_DeepLearning-1s2020/blob/master/Aula\%205/IMDb_Sentiment_analysis_(Self_Attention_simple)_(Rafael_Ito).ipynb}
+            \hspace{0.1mm}
+            \colab{https://colab.research.google.com/drive/1DZKqRb-wW8waV2z27KQFKQHD73p5QxIQ}
+        %-------------------
+        \item Transformer (Encoder only)
+            \hfill
+            \github{https://github.com/ito-rafael/IA376E-NLP_DeepLearning-1s2020/blob/master/Aula\%206/IMDb_Sentiment_analysis_(Self_Attention_complete)_(Rafael_Ito).ipynb}
+            \hspace{0.1mm}
+            \colab{https://colab.research.google.com/drive/1G1qezkPK8HNyX3JuaqthZYgLnvz_fDvY}
+        %-------------------
+        \item BERT
+            \hfill
+            \github{https://github.com/ito-rafael/IA376E-NLP_DeepLearning-1s2020/blob/master/Aula\%208/Aula_8_BERT_(Rafael_Ito).ipynb}
+            \hspace{0.1mm}
+            \colab{https://colab.research.google.com/drive/1N6cw_YLv9bBXqF82b4pM_KJ3ms_-4o5z?authuser=1}
+        %-------------------
+    \end{itemize}
+    %---------------------------------------
+    \item T5 English to Portuguese Translator
+            \hfill
+            \github{https://github.com/ito-rafael/IA376E-NLP_DeepLearning-1s2020/blob/master/Aula\%209/Aula_9_T5_(English_Portuguese_translation)_(Rafael_Ito).ipynb}
+            \hspace{0.1mm}
+            \colab{https://colab.research.google.com/drive/192AWnbDwBnVX0uKiDF7dRfYH-1MxAd15}
+\end{itemize}
+\vspace{2mm}
+
+%---------------------------------------
+\textbf{\underline{Video Processing:}}
+%---------------------------------------
+\begin{itemize}[leftmargin=*,labelindent=3mm,labelsep=1mm]
+    %---------------------------------------
+    \item YOLO
+        \hfill
+        ...in progress
+%        \github{https://github.com/ito-rafael/IA376E-NLP_DeepLearning-1s2020/blob/master/Aula\%203/Language_Model_(Rafael_Ito).ipynb}
+%        \hspace{0.1mm}
+%        \colab{https://colab.research.google.com/drive/1bN7PZKTg5tNFbshVDpeDs2SyO0ry7t-g}
+    %---------------------------------------
+    \item MobileNets
+        \hfill
+        ...in progress
+%        \github{https://github.com/ito-rafael/IA376E-NLP_DeepLearning-1s2020/blob/master/Aula\%203/Language_Model_(Rafael_Ito).ipynb}
+%        \hspace{0.1mm}
+%        \colab{https://colab.research.google.com/drive/1bN7PZKTg5tNFbshVDpeDs2SyO0ry7t-g}
+    %---------------------------------------
+\end{itemize}
+%---------------------------------------
+
+\end{minipage}
+\hspace{1mm}
+%=======================================
+\begin{minipage}[t]{0.53\linewidth}
+\small
+\textbf{\color{sectioncolor}One-page papers summary:}
+\vspace{1.0mm}\\
+\scriptsize
+*available only in Portuguese
+
+%-------------------
+% Google Drive icon
+\newcommand{\drive}[1]{\href{#1}{\includegraphics[height=1em]{drive}}}
+% PDF icon
+\newcommand{\pdf}[1]{\href{#1}{\hspace{1mm}\includegraphics[height=1em]{pdf}\\}}
+%-------------------
+\begin{itemize}[leftmargin=*,labelindent=3mm,labelsep=1mm]
+    %---------------------------------------
+    \item "A Neural Probabilistic Language Model", 2003
+    %---------------------------------------
+%        \hfill
+        \pdf{http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf}
+        \hfill
+        \hspace{2mm} $\hookrightarrow$ summary: 
+            \github{https://github.com/ito-rafael/machine-learning/blob/master/one-page\%20papers\%20summary/2003\%20-\%20\%5BLanguage\%20Model\%5D\%20A\%20Neural\%20Probabilistic\%20Language\%20Model\%20\%5BYoshua\%20Bengio\%20-\%20Universit\%C3\%A9\%20de\%20Montr\%C3\%A9al\%5D.pdf}
+            \hspace{0.1mm}
+            \drive{https://docs.google.com/document/d/1MBboy05JIT-TyNyTxl-ppMgO-4PvaaaZrnW-M1L-0yI/edit?usp=sharing}
+    %---------------------------------------
+    \item "A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning", 2008
+    %---------------------------------------
+%        \hfill
+        \pdf{https://ronan.collobert.com/pub/matos/2008_nlp_icml.pdf}
+        \hfill
+        \hspace{2mm} $\hookrightarrow$ summary: 
+            \github{https://github.com/ito-rafael/machine-learning/blob/master/one-page\%20papers\%20summary/2008\%20-\%20\%5BMultitask\%20NLP\%5D\%20A\%20Unified\%20Architecture\%20for\%20Natural\%20Language\%20Processing:\%20Deep\%20Neural\%20Networks\%20with\%20Multitask\%20Learning\%20\%5BRonan\%20Collobert\%2C\%20Jason\%20Weston\%5D.pdf} 
+            \hspace{0.1mm}
+        \drive{https://docs.google.com/document/d/1jd6sd-SxfUYHUdh8hbLCDcR_PZ11d51tiEEHWcL3-zE/edit?usp=sharing} 
+    %---------------------------------------
+    \item "Efficient Estimation of Word Representations in Vector Space", 2013
+    %---------------------------------------
+%        \hfill
+        \pdf{https://arxiv.org/pdf/1301.3781.pdf}
+        \hfill
+        \hspace{2mm} $\hookrightarrow$ summary: 
+            \github{https://github.com/ito-rafael/machine-learning/blob/master/one-page\%20papers\%20summary/2013\%20-\%20\%5Bword2vec\%5D\%20Efficient\%20Estimation\%20of\%20Word\%20Representations\%20in\%20Vector\%20Space\%20\%5BGoogle\%20Inc\%5D.pdf} 
+            \hspace{0.1mm}
+            \drive{https://docs.google.com/document/d/11MRzz4_oK4KjUcnqLXI2B7Z2WDYRz7PtxctMZcjm2GA/edit?usp=sharing} 
+    %---------------------------------------
+    \item "Deep Learning", 2015
+    %---------------------------------------
+ %       \hfill
+        \pdf{https://s3.us-east-2.amazonaws.com/hkg-website-assets/static/pages/files/DeepLearning.pdf}
+        \hfill
+        \hspace{2mm} $\hookrightarrow$ summary: 
+            \github{https://github.com/ito-rafael/machine-learning/blob/master/one-page\%20papers\%20summary/2015\%20-\%20\%5BDeep\%20Learning\%5D\%20Deep\%20Learning\%20\%5BYann\%20LeCun\%2C\%20Yoshua\%20Bengio\%2C\%20Geoffrey\%20Hinton\%5D.pdf}
+            \hspace{0.1mm}
+            \drive{https://docs.google.com/document/d/1RW47cxVSiQoWAZ74jlFNnT6s5Q_6Ey7ua_uIBcmNBeg/edit?usp=sharing}
+    %---------------------------------------
+    \item "Effective Approaches to Attention-based Neural Machine Translation", 2015
+    %---------------------------------------
+%        \hfill
+        \pdf{https://arxiv.org/pdf/1508.04025.pdf}
+        \hfill
+        \hspace{2mm} $\hookrightarrow$ summary: 
+            \github{https://github.com/ito-rafael/machine-learning/blob/master/one-page\%20papers\%20summary/2015\%20-\%20\%5BAttention\%20NMT\%5D\%20Effective\%20Approaches\%20to\%20Attention-based\%20Neural\%20Machine\%20Translation\%20\%5BStanford\%5D.pdf} 
+            \hspace{0.1mm}
+            \drive{https://docs.google.com/document/d/13iF8bPHbeW97mOck_Ncqxtt_U4vkHXtaPbkqE-sPcww/edit?usp=sharing} 
+    %---------------------------------------
+    \item "Attention Is All You Need", 2017
+    %---------------------------------------
+%        \hfill
+        \pdf{https://arxiv.org/pdf/1706.03762.pdf}
+        \hfill
+        \hspace{2mm} $\hookrightarrow$ summary: 
+            \github{https://github.com/ito-rafael/machine-learning/blob/master/one-page\%20papers\%20summary/2017\%20-\%20\%5BTransformer\%5D\%20Attention\%20Is\%20All\%20You\%20Need\%20\%5BGoogle\%20Brain\%5D\%20(Vaswani\%20et\%20al.\%2C\%202017).pdf} 
+            \hspace{0.1mm}
+            \drive{https://docs.google.com/document/d/1pCnipY7b_Qcs0w1HAw8W9jDGRrzmH1KixT9Rlg8Mu0E/edit?usp=sharing} 
+    %---------------------------------------
+    \item "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", 2019
+    %---------------------------------------
+%        \hfill
+        \pdf{https://arxiv.org/pdf/1810.04805.pdf}
+        \hfill
+        \hspace{2mm} $\hookrightarrow$ summary: 
+            \github{https://github.com/ito-rafael/machine-learning/blob/master/one-page\%20papers\%20summary/2019\%20-\%20\%5BBERT\%5D\%20BERT:\%20Pre-training\%20of\%20Deep\%20Bidirectional\%20Transformers\%20for\%20Language\%20Understanding\%20\%5BGoogle\%20AI\%20Language\%5D\%20(Devlin\%20et\%20al.\%2C\%202019).pdf} 
+            \hspace{0.1mm}
+            \drive{https://docs.google.com/document/d/1Yrd7j6UAQkS0ZHbjl-893eqiQuCVXFj1b4tOv2QHb1w/edit?usp=sharing} 
+    %---------------------------------------
+    \item "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", 2019
+    %---------------------------------------
+%        \hfill
+        \pdf{https://arxiv.org/pdf/1910.10683.pdf}
+        \hfill
+        \hspace{2mm} $\hookrightarrow$ summary: 
+            \github{https://github.com/ito-rafael/machine-learning/blob/master/one-page\%20papers\%20summary/2019\%20-\%20\%5BT5\%5D\%20Exploring\%20the\%20Limits\%20of\%20Transfer\%20Learning\%20with\%20a\%20Unified\%20Text-to-Text\%20Transformer\%20\%5BGoogle\%5D.pdf} 
+            \hspace{0.1mm}
+            \drive{https://docs.google.com/document/d/13HLEYCKsRb_EJRauQyZpAOuXUhTC4GrDlFDhW5l-A-o/edit?usp=sharing} 
+    %---------------------------------------
+    \item "The Curious Case of Neural Text Degeneration", 2019
+    %---------------------------------------
+%        \hfill
+        \pdf{https://arxiv.org/pdf/1904.09751.pdf}
+        \hfill
+        \hspace{2mm} $\hookrightarrow$ summary: 
+            \github{https://github.com/ito-rafael/machine-learning/blob/master/one-page\%20papers\%20summary/2019\%20-\%20\%5BNucleus\%20Sampling\%5D\%20The\%20Curious\%20Case\%20of\%20Neural\%20Text\%20Degeneration\%20\%5BAllen\%20Institute\%20for\%20Artificial\%20Intelligence\%5D.pdf} 
+            \hspace{0.1mm}
+            \drive{https://docs.google.com/document/d/1IcBG9UQJNIfzteAGzPU7q-_wfBZnGPQ4H5GUwI-Q7EQ/edit?usp=sharing} 
+    %---------------------------------------
+
+\end{itemize}
+
+\end{minipage}
+%\end{multicols}
+%\end{vwcol}
+
 %%=======================================
 %\cvsection{Awards}
 %%=======================================
@@ -560,7 +836,7 @@
 %                         TABLE ENTRIES 2nd PAGE
 %===============================================================================
 \newpage
-%\makebacksidebar
+\makebacksidebar
 
 %=======================================
 \cvsection{Working Experience}
@@ -625,6 +901,26 @@
         {\hspace{2mm}\includegraphics[height=0.07\textwidth]{Cotuca}}
         {bla}
 
+%=======================================
+\cvsection{Publications}
+%=======================================
+\begin{cvtable}
+	\cvpubitem
+        %http://icalepcs2019.vrws.de/papers/wempr003.pdf
+        {Exploring Embedded Systems' Dedicated Cores for Real-Time Applications}
+        {P. H. Nallin, G. R. S. Franco, R. C. Ito, and A. R. D. Rodrigues}
+		{17th Int. Conf. on Accelerator and Large Experimental Physics Control Systems (ICALEPCS'19)}
+        {October 2019}
+        {New York, USA}
+    %---------------------------------------
+	\cvpubitem
+        %http://icalepcs2019.vrws.de/papers/mopha031.pdf
+        {Software and Hardware Design for Controls Infrastructure at Sirius Light Source}
+        {G. R. S. Franco et al.}
+        {17th Int. Conf. on Accelerator and Large Experimental Physics Control Systems (ICALEPCS'19)}
+        {October 2019}
+        {New York, USA}
+\end{cvtable}
 %=======================================
 
 %\cvsection{section}
