@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.6)  10 MAY 2020 22:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.6)  10 MAY 2020 23:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1126,34 +1126,34 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )) (./Rafael_Ito.aux)
 \openout1 = `Rafael_Ito.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 406.
-LaTeX Font Info:    ... okay on input line 406.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 406.
-LaTeX Font Info:    ... okay on input line 406.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 406.
-LaTeX Font Info:    ... okay on input line 406.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 406.
-LaTeX Font Info:    ... okay on input line 406.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 406.
-LaTeX Font Info:    ... okay on input line 406.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 406.
-LaTeX Font Info:    ... okay on input line 406.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 406.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 406.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 417.
+LaTeX Font Info:    ... okay on input line 417.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 417.
+LaTeX Font Info:    ... okay on input line 417.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 417.
+LaTeX Font Info:    ... okay on input line 417.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 417.
+LaTeX Font Info:    ... okay on input line 417.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 417.
+LaTeX Font Info:    ... okay on input line 417.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 417.
+LaTeX Font Info:    ... okay on input line 417.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 417.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 417.
  (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 406.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 406.
-LaTeX Font Info:    ... okay on input line 406.
-LaTeX Font Info:    Trying to load font information for T1+ClearSans-TLF on input line 406.
+LaTeX Font Info:    ... okay on input line 417.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 417.
+LaTeX Font Info:    ... okay on input line 417.
+LaTeX Font Info:    Trying to load font information for T1+ClearSans-TLF on input line 417.
  (/usr/local/share/texmf/tex/latex/clearsans/T1ClearSans-TLF.fd
 File: T1ClearSans-TLF.fd 2019/10/16 (autoinst) Font definitions for T1/ClearSans-TLF.
 )
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 406.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 417.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 406.
+(Font)              scaled to size 10.0pt on input line 417.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count349
@@ -1216,7 +1216,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 \c@mv@tabular=\count355
 \c@mv@boldtabular=\count356
 \AtBeginShipoutBox=\box102
-Package hyperref Info: Link coloring OFF on input line 406.
+Package hyperref Info: Link coloring OFF on input line 417.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1224,23 +1224,23 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count357
 )
-LaTeX Info: Redefining \ref on input line 406.
-LaTeX Info: Redefining \pageref on input line 406.
-LaTeX Info: Redefining \nameref on input line 406.
+LaTeX Info: Redefining \ref on input line 417.
+LaTeX Info: Redefining \pageref on input line 417.
+LaTeX Info: Redefining \nameref on input line 417.
  (./Rafael_Ito.out) (./Rafael_Ito.out)
 \@outlinefile=\write4
 \openout4 = `Rafael_Ito.out'.
 
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 406.
-LaTeX Info: Redefining \microtypecontext on input line 406.
+LaTeX Info: Redefining \selectfont on input line 417.
+LaTeX Info: Redefining \microtypecontext on input line 417.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 406.
+LaTeX Info: Redefining \showhyphens on input line 417.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1251,413 +1251,419 @@ Package microtype Info: Loading generic protrusion settings for font family
 <../figures/profile.jpeg, id=7, 1409.265pt x 1391.1975pt>
 File: ../figures/profile.jpeg Graphic file (type jpg)
 <use ../figures/profile.jpeg>
-Package pdftex.def Info: ../figures/profile.jpeg  used on input line 407.
+Package pdftex.def Info: ../figures/profile.jpeg  used on input line 418.
 (pdftex.def)             Requested size: 142.20471pt x 140.38034pt.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <24.88> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 407.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 418.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 24.88pt on input line 407.
+(Font)              scaled to size 24.88pt on input line 418.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <14.4> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 407.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 418.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 407.
+(Font)              scaled to size 14.4pt on input line 418.
  (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd) (/usr/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg) (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd) (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd) (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd) (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texmf-dist/tex/latex/microtype/mt-msa.cfg) (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd) (/usr/share/texmf-dist/tex/latex/microtype/mt-msb.cfg) (/usr/local/share/texmf/tex/latex/fontawesome/ufontawesometwo.fd) (/usr/local/share/texmf/tex/latex/fontawesome/ufontawesomeone.fd) (/usr/local/share/texmf/tex/latex/fontawesome/ufontawesomethree.fd)
 
-Package hyperref Warning: Suppressing link with empty target on input line 407.
+Package hyperref Warning: Suppressing link with empty target on input line 418.
 
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <20.74> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 407.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 418.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 20.74pt on input line 407.
+(Font)              scaled to size 20.74pt on input line 418.
 <../figures/languages/en-US.png, id=20, 1027.84pt x 685.56125pt>
 File: ../figures/languages/en-US.png Graphic file (type png)
 <use ../figures/languages/en-US.png>
-Package pdftex.def Info: ../figures/languages/en-US.png  used on input line 407.
+Package pdftex.def Info: ../figures/languages/en-US.png  used on input line 418.
 (pdftex.def)             Requested size: 10.0pt x 6.66353pt.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <7> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 407.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 418.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 407.
+(Font)              scaled to size 7.0pt on input line 418.
 <../figures/languages/pt-BR.png, id=21, 1284.8pt x 899.36pt>
 File: ../figures/languages/pt-BR.png Graphic file (type png)
 <use ../figures/languages/pt-BR.png>
-Package pdftex.def Info: ../figures/languages/pt-BR.png  used on input line 407.
+Package pdftex.def Info: ../figures/languages/pt-BR.png  used on input line 418.
 (pdftex.def)             Requested size: 10.0pt x 6.99878pt.
 <../figures/languages/it-IT.png, id=22, 1204.5pt x 803.0pt>
 File: ../figures/languages/it-IT.png Graphic file (type png)
 <use ../figures/languages/it-IT.png>
-Package pdftex.def Info: ../figures/languages/it-IT.png  used on input line 407.
+Package pdftex.def Info: ../figures/languages/it-IT.png  used on input line 418.
 (pdftex.def)             Requested size: 10.0pt x 6.6655pt.
 <../figures/languages/fr-FR.png, id=24, 1284.8pt x 856.19875pt>
 File: ../figures/languages/fr-FR.png Graphic file (type png)
 <use ../figures/languages/fr-FR.png>
-Package pdftex.def Info: ../figures/languages/fr-FR.png  used on input line 407.
+Package pdftex.def Info: ../figures/languages/fr-FR.png  used on input line 418.
 (pdftex.def)             Requested size: 10.0pt x 6.6629pt.
 <../figures/languages/es-ES.jpg, id=25, 610.73239pt x 407.15492pt>
 File: ../figures/languages/es-ES.jpg Graphic file (type jpg)
 <use ../figures/languages/es-ES.jpg>
-Package pdftex.def Info: ../figures/languages/es-ES.jpg  used on input line 407.
+Package pdftex.def Info: ../figures/languages/es-ES.jpg  used on input line 418.
 (pdftex.def)             Requested size: 10.0pt x 6.6662pt.
 <../figures/languages/jp-JP.jpg, id=26, 1885.0425pt x 1318.9275pt>
 File: ../figures/languages/jp-JP.jpg Graphic file (type jpg)
 <use ../figures/languages/jp-JP.jpg>
-Package pdftex.def Info: ../figures/languages/jp-JP.jpg  used on input line 407.
+Package pdftex.def Info: ../figures/languages/jp-JP.jpg  used on input line 418.
 (pdftex.def)             Requested size: 10.0pt x 6.98343pt.
 <../figures/awards/medal_golden_red.png, id=27, 184.69pt x 233.87375pt>
 File: ../figures/awards/medal_golden_red.png Graphic file (type png)
 <use ../figures/awards/medal_golden_red.png>
-Package pdftex.def Info: ../figures/awards/medal_golden_red.png  used on input line 407.
+Package pdftex.def Info: ../figures/awards/medal_golden_red.png  used on input line 418.
 (pdftex.def)             Requested size: 10.0pt x 12.66145pt.
 <../figures/awards/medal_silver_blue.png, id=28, 234.8775pt x 234.8775pt>
 File: ../figures/awards/medal_silver_blue.png Graphic file (type png)
 <use ../figures/awards/medal_silver_blue.png>
-Package pdftex.def Info: ../figures/awards/medal_silver_blue.png  used on input line 407.
+Package pdftex.def Info: ../figures/awards/medal_silver_blue.png  used on input line 418.
 (pdftex.def)             Requested size: 10.0pt x 9.99918pt.
 File: ../figures/awards/medal_silver_blue.png Graphic file (type png)
 <use ../figures/awards/medal_silver_blue.png>
-Package pdftex.def Info: ../figures/awards/medal_silver_blue.png  used on input line 407.
+Package pdftex.def Info: ../figures/awards/medal_silver_blue.png  used on input line 418.
 (pdftex.def)             Requested size: 10.0pt x 9.99918pt.
 <../figures/awards/merit_2.png, id=29, 108.405pt x 128.48pt>
 File: ../figures/awards/merit_2.png Graphic file (type png)
 <use ../figures/awards/merit_2.png>
-Package pdftex.def Info: ../figures/awards/merit_2.png  used on input line 407.
+Package pdftex.def Info: ../figures/awards/merit_2.png  used on input line 418.
 (pdftex.def)             Requested size: 10.0pt x 11.85088pt.
 <../figures/awards/merit.png, id=30, 431.6125pt x 513.92pt>
 File: ../figures/awards/merit.png Graphic file (type png)
 <use ../figures/awards/merit.png>
-Package pdftex.def Info: ../figures/awards/merit.png  used on input line 407.
+Package pdftex.def Info: ../figures/awards/merit.png  used on input line 418.
 (pdftex.def)             Requested size: 10.0pt x 11.90381pt.
 File: ../figures/awards/merit.png Graphic file (type png)
 <use ../figures/awards/merit.png>
-Package pdftex.def Info: ../figures/awards/merit.png  used on input line 407.
+Package pdftex.def Info: ../figures/awards/merit.png  used on input line 418.
 (pdftex.def)             Requested size: 10.0pt x 11.90381pt.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bx/n' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 410.
+(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 421.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/b/n' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 410.
+(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 421.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 410.
+(Font)              scaled to size 10.0pt on input line 421.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 410.
+(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 421.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/b/n' in size <17.28> not available
-(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 410.
+(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 421.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bold/n' will be
-(Font)              scaled to size 17.28pt on input line 410.
+(Font)              scaled to size 17.28pt on input line 421.
 <../figures/education/Unicamp.png, id=31, 481.8pt x 481.8pt>
 File: ../figures/education/Unicamp.png Graphic file (type png)
 <use ../figures/education/Unicamp.png>
-Package pdftex.def Info: ../figures/education/Unicamp.png  used on input line 525.
+Package pdftex.def Info: ../figures/education/Unicamp.png  used on input line 536.
 (pdftex.def)             Requested size: 25.92932pt x 25.93434pt.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <9> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 525.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 536.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 525.
+(Font)              scaled to size 9.0pt on input line 536.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <8> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 525.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 536.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 525.
+(Font)              scaled to size 8.0pt on input line 536.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <5> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 525.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 536.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 5.0pt on input line 525.
+(Font)              scaled to size 5.0pt on input line 536.
 File: ../figures/education/Unicamp.png Graphic file (type png)
 <use ../figures/education/Unicamp.png>
-Package pdftex.def Info: ../figures/education/Unicamp.png  used on input line 569.
+Package pdftex.def Info: ../figures/education/Unicamp.png  used on input line 580.
 (pdftex.def)             Requested size: 25.92932pt x 25.93434pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--569
+Underfull \hbox (badness 10000) in paragraph at lines 540--580
 
  []
 
 <../figures/education/QMUL.png, id=32, 344.0052pt x 104.3097pt>
 File: ../figures/education/QMUL.png Graphic file (type png)
 <use ../figures/education/QMUL.png>
-Package pdftex.def Info: ../figures/education/QMUL.png  used on input line 581.
+Package pdftex.def Info: ../figures/education/QMUL.png  used on input line 592.
 (pdftex.def)             Requested size: 61.0889pt x 18.52373pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--581
+Underfull \hbox (badness 10000) in paragraph at lines 584--592
 
  []
 
 <../figures/education/Cotuca.png, id=33, 87.32625pt x 87.32625pt>
 File: ../figures/education/Cotuca.png Graphic file (type png)
 <use ../figures/education/Cotuca.png>
-Package pdftex.def Info: ../figures/education/Cotuca.png  used on input line 592.
+Package pdftex.def Info: ../figures/education/Cotuca.png  used on input line 603.
 (pdftex.def)             Requested size: 25.93423pt x 25.93434pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 584--592
+Underfull \hbox (badness 10000) in paragraph at lines 595--603
 
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bx/n' in size <8> not available
-(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 595.
+(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 606.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/b/n' in size <8> not available
-(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 595.
+(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 606.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bold/n' will be
-(Font)              scaled to size 8.0pt on input line 595.
+(Font)              scaled to size 8.0pt on input line 606.
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/bx/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 595.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 606.
 
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bx/n' in size <9> not available
-(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 617.
+(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 628.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/b/n' in size <9> not available
-(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 617.
+(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 628.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bold/n' will be
-(Font)              scaled to size 9.0pt on input line 617.
+(Font)              scaled to size 9.0pt on input line 628.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bx/n' in size <7> not available
-(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 620.
+(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 631.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/b/n' in size <7> not available
-(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 620.
+(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 631.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bold/n' will be
-(Font)              scaled to size 7.0pt on input line 620.
-LaTeX Font Info:    Trying to load font information for TS1+ClearSans-TLF on input line 622.
+(Font)              scaled to size 7.0pt on input line 631.
+LaTeX Font Info:    Trying to load font information for TS1+ClearSans-TLF on input line 633.
 (/usr/local/share/texmf/tex/latex/clearsans/TS1ClearSans-TLF.fd
 File: TS1ClearSans-TLF.fd 2019/10/16 (autoinst) Font definitions for TS1/ClearSans-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/ClearSans-TLF/m/n' in size <7> not available
-(Font)              Font shape `TS1/ClearSans-TLF/regular/n' tried instead on input line 622.
+(Font)              Font shape `TS1/ClearSans-TLF/regular/n' tried instead on input line 633.
 LaTeX Font Info:    Font shape `TS1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 622.
+(Font)              scaled to size 7.0pt on input line 633.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ClearSans-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--622
+Underfull \hbox (badness 10000) in paragraph at lines 628--633
 
  []
 
 <../figures/machine-learning-portfolio/colab.png, id=37, 256.96pt x 256.96pt>
 File: ../figures/machine-learning-portfolio/colab.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/colab.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 628.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 639.
 (pdftex.def)             Requested size: 6.99878pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/colab.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/colab.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 634.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 645.
 (pdftex.def)             Requested size: 6.99878pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/colab.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/colab.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 640.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 651.
 (pdftex.def)             Requested size: 6.99878pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/colab.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/colab.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 646.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 657.
 (pdftex.def)             Requested size: 6.99878pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/colab.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/colab.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 652.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 663.
 (pdftex.def)             Requested size: 6.99878pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/colab.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/colab.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 658.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 669.
 (pdftex.def)             Requested size: 6.99878pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/colab.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/colab.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 664.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 675.
 (pdftex.def)             Requested size: 6.99878pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/colab.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/colab.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 678.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 689.
 (pdftex.def)             Requested size: 6.99878pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/colab.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/colab.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 687.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 698.
 (pdftex.def)             Requested size: 6.99878pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/colab.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/colab.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 693.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 704.
 (pdftex.def)             Requested size: 6.99878pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/colab.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/colab.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 699.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 710.
 (pdftex.def)             Requested size: 6.99878pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/colab.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/colab.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 705.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 716.
 (pdftex.def)             Requested size: 6.99878pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/colab.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/colab.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 711.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 722.
 (pdftex.def)             Requested size: 6.99878pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/colab.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/colab.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 719.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/colab.png  used on input line 730.
 (pdftex.def)             Requested size: 6.99878pt x 7.0pt.
 <../figures/machine-learning-portfolio/pdf.png, id=65, 225.84375pt x 225.84375pt>
 File: ../figures/machine-learning-portfolio/pdf.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/pdf.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/pdf.png  used on input line 766.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/pdf.png  used on input line 777.
 (pdftex.def)             Requested size: 6.99901pt x 7.0pt.
 <../figures/machine-learning-portfolio/drive.png, id=68, 513.92pt x 513.92pt>
 File: ../figures/machine-learning-portfolio/drive.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/drive.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/drive.png  used on input line 771.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/drive.png  used on input line 782.
 (pdftex.def)             Requested size: 6.99486pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/pdf.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/pdf.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/pdf.png  used on input line 776.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/pdf.png  used on input line 787.
 (pdftex.def)             Requested size: 6.99901pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/drive.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/drive.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/drive.png  used on input line 781.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/drive.png  used on input line 792.
 (pdftex.def)             Requested size: 6.99486pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/pdf.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/pdf.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/pdf.png  used on input line 786.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/pdf.png  used on input line 797.
 (pdftex.def)             Requested size: 6.99901pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/drive.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/drive.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/drive.png  used on input line 791.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/drive.png  used on input line 802.
 (pdftex.def)             Requested size: 6.99486pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/pdf.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/pdf.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/pdf.png  used on input line 796.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/pdf.png  used on input line 807.
 (pdftex.def)             Requested size: 6.99901pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/drive.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/drive.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/drive.png  used on input line 801.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/drive.png  used on input line 812.
 (pdftex.def)             Requested size: 6.99486pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/pdf.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/pdf.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/pdf.png  used on input line 806.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/pdf.png  used on input line 817.
 (pdftex.def)             Requested size: 6.99901pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/drive.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/drive.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/drive.png  used on input line 811.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/drive.png  used on input line 822.
 (pdftex.def)             Requested size: 6.99486pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/pdf.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/pdf.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/pdf.png  used on input line 816.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/pdf.png  used on input line 827.
 (pdftex.def)             Requested size: 6.99901pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/drive.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/drive.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/drive.png  used on input line 821.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/drive.png  used on input line 832.
 (pdftex.def)             Requested size: 6.99486pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/pdf.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/pdf.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/pdf.png  used on input line 826.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/pdf.png  used on input line 837.
 (pdftex.def)             Requested size: 6.99901pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/drive.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/drive.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/drive.png  used on input line 831.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/drive.png  used on input line 842.
 (pdftex.def)             Requested size: 6.99486pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/pdf.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/pdf.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/pdf.png  used on input line 836.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/pdf.png  used on input line 847.
 (pdftex.def)             Requested size: 6.99901pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/drive.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/drive.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/drive.png  used on input line 841.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/drive.png  used on input line 852.
 (pdftex.def)             Requested size: 6.99486pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/pdf.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/pdf.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/pdf.png  used on input line 846.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/pdf.png  used on input line 857.
 (pdftex.def)             Requested size: 6.99901pt x 7.0pt.
 File: ../figures/machine-learning-portfolio/drive.png Graphic file (type png)
 <use ../figures/machine-learning-portfolio/drive.png>
-Package pdftex.def Info: ../figures/machine-learning-portfolio/drive.png  used on input line 851.
+Package pdftex.def Info: ../figures/machine-learning-portfolio/drive.png  used on input line 862.
 (pdftex.def)             Requested size: 6.99486pt x 7.0pt.
 [1
 
  <../figures/education/Unicamp.png> <../figures/education/QMUL.png> <../figures/education/Cotuca.png> <../figures/machine-learning-portfolio/colab.png> <../figures/machine-learning-portfolio/pdf.png> <../figures/machine-learning-portfolio/drive.png> <../figures/profile.jpeg> <../figures/languages/en-US.png> <../figures/languages/pt-BR.png> <../figures/languages/it-IT.png> <../figures/languages/fr-FR.png> <../figures/languages/es-ES.jpg> <../figures/languages/jp-JP.jpg> <../figures/awards/medal_golden_red.png> <../figures/awards/medal_silver_blue.png> <../figures/awards/merit_2.png> <../figures/awards/merit.png>]
-LaTeX Font Info:    Font shape `TS1/ClearSans-TLF/m/n' in size <10> not available
-(Font)              Font shape `TS1/ClearSans-TLF/regular/n' tried instead on input line 883.
-LaTeX Font Info:    Font shape `TS1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 883.
-LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <12> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 883.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 894.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 894.
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <6> not available
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 894.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 883.
+(Font)              scaled to size 6.0pt on input line 894.
+LaTeX Font Info:    Font shape `TS1/ClearSans-TLF/m/n' in size <9> not available
+(Font)              Font shape `TS1/ClearSans-TLF/regular/n' tried instead on input line 894.
+LaTeX Font Info:    Font shape `TS1/ClearSans-TLF/regular/n' will be
+(Font)              scaled to size 9.0pt on input line 894.
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <12> not available
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 894.
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 894.
 <../figures/work/CNPEM.png, id=130, 523.4757pt x 158.7531pt>
 File: ../figures/work/CNPEM.png Graphic file (type png)
 <use ../figures/work/CNPEM.png>
-Package pdftex.def Info: ../figures/work/CNPEM.png  used on input line 909.
+Package pdftex.def Info: ../figures/work/CNPEM.png  used on input line 920.
 (pdftex.def)             Requested size: 61.07307pt x 18.52373pt.
 LaTeX Font Info:    Font shape `TS1/ClearSans-TLF/m/n' in size <8> not available
-(Font)              Font shape `TS1/ClearSans-TLF/regular/n' tried instead on input line 909.
+(Font)              Font shape `TS1/ClearSans-TLF/regular/n' tried instead on input line 920.
 LaTeX Font Info:    Font shape `TS1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 909.
+(Font)              scaled to size 8.0pt on input line 920.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 909.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 909.
+(Font)              <8> on input line 920.
 <../figures/work/Unicamp.png, id=135, 481.8pt x 481.8pt>
 File: ../figures/work/Unicamp.png Graphic file (type png)
 <use ../figures/work/Unicamp.png>
-Package pdftex.def Info: ../figures/work/Unicamp.png  used on input line 920.
+Package pdftex.def Info: ../figures/work/Unicamp.png  used on input line 931.
 (pdftex.def)             Requested size: 25.92932pt x 25.93434pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 911--920
+Underfull \hbox (badness 10000) in paragraph at lines 922--931
 
  []
 
 <../figures/work/QMUL.png, id=136, 344.0052pt x 104.3097pt>
 File: ../figures/work/QMUL.png Graphic file (type png)
 <use ../figures/work/QMUL.png>
-Package pdftex.def Info: ../figures/work/QMUL.png  used on input line 931.
+Package pdftex.def Info: ../figures/work/QMUL.png  used on input line 942.
 (pdftex.def)             Requested size: 61.0889pt x 18.52373pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 920--931
+Underfull \hbox (badness 10000) in paragraph at lines 931--942
 
  []
 
 <../figures/work/CPqD.png, id=137, 251.7405pt x 121.4136pt>
 File: ../figures/work/CPqD.png Graphic file (type png)
 <use ../figures/work/CPqD.png>
-Package pdftex.def Info: ../figures/work/CPqD.png  used on input line 942.
+Package pdftex.def Info: ../figures/work/CPqD.png  used on input line 953.
 (pdftex.def)             Requested size: 38.40477pt x 18.52373pt.
 
-Overfull \hbox (0.22066pt too wide) in paragraph at lines 931--942
+Overfull \hbox (0.22066pt too wide) in paragraph at lines 942--953
 []\T1/ClearSans-TLF/regular/n/8 The re-search was per-formed in the au-dio en-gi-neer-ing area with fo-cus on the syn-the-sis of sounds. Through
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 931--942
+Underfull \hbox (badness 10000) in paragraph at lines 942--953
 
  []
 
 <../figures/work/Cotuca.png, id=138, 87.32625pt x 87.32625pt>
 File: ../figures/work/Cotuca.png Graphic file (type png)
 <use ../figures/work/Cotuca.png>
-Package pdftex.def Info: ../figures/work/Cotuca.png  used on input line 953.
+Package pdftex.def Info: ../figures/work/Cotuca.png  used on input line 964.
 (pdftex.def)             Requested size: 25.93423pt x 25.93434pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 942--953
+Underfull \hbox (badness 10000) in paragraph at lines 953--964
 
  []
 
 <../figures/pdf.png, id=140, 225.84375pt x 225.84375pt>
 File: ../figures/pdf.png Graphic file (type png)
 <use ../figures/pdf.png>
-Package pdftex.def Info: ../figures/pdf.png  used on input line 975.
+Package pdftex.def Info: ../figures/pdf.png  used on input line 986.
 (pdftex.def)             Requested size: 7.99838pt x 8.0pt.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/it' in size <8> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 975.
+(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 986.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
-(Font)              scaled to size 8.0pt on input line 975.
+(Font)              scaled to size 8.0pt on input line 986.
 File: ../figures/pdf.png Graphic file (type png)
 <use ../figures/pdf.png>
-Package pdftex.def Info: ../figures/pdf.png  used on input line 982.
+Package pdftex.def Info: ../figures/pdf.png  used on input line 993.
 (pdftex.def)             Requested size: 7.99838pt x 8.0pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 970--985
+Underfull \hbox (badness 10000) in paragraph at lines 981--996
 
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bx/n' in size <12> not available
-(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 1037.
+(Font)              Font shape `T1/ClearSans-TLF/b/n' tried instead on input line 1048.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/b/n' in size <12> not available
-(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 1037.
+(Font)              Font shape `T1/ClearSans-TLF/bold/n' tried instead on input line 1048.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 1037.
+(Font)              scaled to size 12.0pt on input line 1048.
 [2 <../figures/work/CNPEM.png> <../figures/work/Unicamp.png> <../figures/work/QMUL.png> <../figures/work/CPqD.png> <../figures/work/Cotuca.png> <../figures/pdf.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1039.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1039.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1050.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1050.
  (./Rafael_Ito.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1039.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1039.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1050.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1050.
 Package rerunfilecheck Info: File `Rafael_Ito.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1666,18 +1672,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 35457 strings out of 492167
- 655620 string characters out of 6131559
- 819068 words of memory out of 5000000
- 39202 multiletter control sequences out of 15000+600000
- 665037 words of font info for 112 fonts, out of 8000000 for 9000
+ 35494 strings out of 492167
+ 656223 string characters out of 6131559
+ 819224 words of memory out of 5000000
+ 39229 multiletter control sequences out of 15000+600000
+ 682287 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,17n,71p,797b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/share/texmf/fonts/enc/dvips/clearsans/clr_zxbkm4.enc}{/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/local/share/texmf/fonts/enc/dvips/clearsans/clr_nrghxx.enc}{/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Bold.pfb></usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Italic.pfb></usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></usr/local/share/texmf/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Rafael_Ito.pdf (2 pages, 893730 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/share/texmf/fonts/enc/dvips/clearsans/clr_zxbkm4.enc}{/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/local/share/texmf/fonts/enc/dvips/clearsans/clr_nrghxx.enc}{/usr/local/share/texmf/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Bold.pfb></usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Italic.pfb></usr/local/share/texmf/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></usr/local/share/texmf/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
+Output written on Rafael_Ito.pdf (2 pages, 893904 bytes).
 PDF statistics:
  207 PDF objects out of 1000 (max. 8388607)
  140 compressed objects within 2 object streams
  3 named destinations out of 1000 (max. 500000)
- 17536 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 21120 words of extra memory for PDF output out of 24883 (max. 10000000)
 
