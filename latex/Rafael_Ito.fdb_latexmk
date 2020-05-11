@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1589153551 "Rafael_Ito.tex" "Rafael_Ito.pdf" "Rafael_Ito" 1589153551
+["pdflatex"] 1589155974 "Rafael_Ito.tex" "Rafael_Ito.pdf" "Rafael_Ito" 1589155976
   "../figures/awards/medal_golden_red.png" 1577309023 19315 b79c61e49fac42f2f5b7aa7b677d993e ""
   "../figures/awards/medal_silver_blue.png" 1565443025 11650 958c85fa9e68c6ae2c359b2e509eceb4 ""
   "../figures/awards/merit.png" 1577309214 26219 bff337cd7f575618a4583bb5400fa020 ""
@@ -16,6 +16,7 @@
   "../figures/machine-learning-portfolio/colab.png" 1589135946 17284 e081578053c4e99c34a0010da8057b51 ""
   "../figures/machine-learning-portfolio/drive.png" 1589137971 53266 e54e8c720dffffa619c3b0eacec9381a ""
   "../figures/machine-learning-portfolio/pdf.png" 1589143350 1940 132194c6c3104746748b7a938938f0d8 ""
+  "../figures/pdf.png" 1589143350 1940 132194c6c3104746748b7a938938f0d8 ""
   "../figures/profile.jpeg" 1576688270 112788 109f9af1299f5da72946d0920c5af302 ""
   "../figures/work/CNPEM.png" 1565443025 29969 f73a1a96b67cc09b6b05209836450973 ""
   "../figures/work/CPqD.png" 1565443025 41556 28a81e376555263f5dd6fc61e8149c0f ""
@@ -275,12 +276,12 @@
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1572595918 4962 9c1069474ff71dbc47d5006555e352d3 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1572595918 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1588776570 8044938 d53b80516de230b84454862c99416847 ""
-  "Rafael_Ito.aux" 1589153526 738 2294f00df80345479d33d7bf14abee02 "pdflatex"
-  "Rafael_Ito.out" 1589153525 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Rafael_Ito.tex" 1589153549 42864 6384fbe35c9e4ffd334701b0e35c282d ""
+  "Rafael_Ito.aux" 1589155975 738 2294f00df80345479d33d7bf14abee02 "pdflatex"
+  "Rafael_Ito.out" 1589155974 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Rafael_Ito.tex" 1589155973 43135 46a7782c2de591c74c1fa36c6cbaa263 ""
   "fortysecondscv.cls" 1583543626 24813 0e9db3e893397ed14b24318b5446741e ""
   (generated)
-  "Rafael_Ito.aux"
-  "Rafael_Ito.out"
-  "Rafael_Ito.pdf"
   "Rafael_Ito.log"
+  "Rafael_Ito.pdf"
+  "Rafael_Ito.out"
+  "Rafael_Ito.aux"
