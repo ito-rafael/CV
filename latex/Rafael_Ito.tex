@@ -273,6 +273,8 @@
 %-------------------------------------------------------------------------------
 \addtobacksidebar{
 
+\normalsize
+
     %===============
     % Coding Skils
     %===============
@@ -282,18 +284,20 @@
         \hspace{6mm} \pointskill{\hspace{4mm} $\hookrightarrow$ \hspace{2mm}}{PyTorch}{4}
         \hspace{6mm} \pointskill{\hspace{4mm} $\hookrightarrow$ \hspace{2mm}}{NumPy}{4}
         \hspace{6mm} \pointskill{\hspace{4mm} $\hookrightarrow$ \hspace{2mm}}{TensorFlow}{2}
-	\pointskill{}{C}{2}
+	\pointskill{}{C/C++}{3}
     \pointskill{}{Assembly}{3}
 	\pointskill{}{VHDL}{1}
 	\pointskill{}{Ladder Logic}{1}
 	\pointskill{}{\LaTeX}{4}
-    \vspace{5mm}
+    \vspace{-1mm}
 
     %===============
     % Softwares
     %===============
     \profilesection{\LARGE{Softwares Experiences}}
+    \vspace{-3mm}
     \begin{itemize}
+        \setlength\itemsep{0.0em}
         \item Linux
         \item MATLAB/Octave
         \item Git
@@ -306,22 +310,25 @@
         \item CodeWarrior
         \item Kinetis Design Studio
         \item Quartus (Altera)
+        \item AutoCAD
     \end{itemize}
-    \vspace{5mm}
+    \vspace{-5mm}
 
     %===============
     % Embedded Systems
     %===============
     \profilesection{\LARGE{Embedded Systems}}
+    \vspace{-3mm}
     \begin{itemize}
+        \setlength\itemsep{0.0em}
         \item BeagleBone Black
         \item Raspberry Pi
         \item FRDM-KL25Z
         \item FRDM-K64F
         \item Arduino
-        \item FPGA
+        \item FPGA / CPLD
     \end{itemize}
-    \vspace{5mm}
+    \vspace{-5mm}
 
     %===============
     % REFERENCES
@@ -349,8 +356,6 @@
             $\boldsymbol{\cdot}$ \textbf{contato:} fulanobeltra@gmail.com}
 
 }
-
-
 
 %	\profilesection{About Me}
 %	\aboutme{
@@ -510,7 +515,7 @@
                     %=======================================
                     \hline
                     \multicolumn{6}{l}{ }\\
-                    \multicolumn{6}{r}{*table information in Portuguese}
+                    \multicolumn{6}{r}{* table information in Portuguese}
                     %=======================================
                 \end{tabular}
             \end{center}
@@ -554,7 +559,7 @@
                     %=======================================
                     \hline
                     \multicolumn{6}{l}{ }\\
-                    \multicolumn{6}{r}{*table information in Portuguese}
+                    \multicolumn{6}{r}{* table information in Portuguese}
                     %=======================================
                  \end{tabular}
             \end{center}
@@ -572,7 +577,7 @@
         {Queen Mary University of London}
         {Sep 2014 -- Aug 2015}
         {London}
-        {\hspace{2mm}\includegraphics[height=0.07\textwidth]{QMUL}}
+        {\hspace{2mm}\includegraphics[height=0.05\textwidth]{QMUL}}
         {Studies sponsored by the Brazilian government due to academic merit. Science without Borders (SwB) student exchange program.}
 
     %---------------------------------------
@@ -587,8 +592,9 @@
         {Selected to work as a Teaching Assistant of the technical course.}
 
 %=======================================
-\cvsection{Machine Learning Portfolio}
+\cvsection{\href{https://github.com/ito-rafael/machine-learning}{\faGithub}\hspace{0.5mm} Machine Learning Portfolio}
 %=======================================
+\vspace{3mm}
 %-------------------
 % change item symbols
 \renewcommand{\labelitemi}{\textbullet}
@@ -721,14 +727,14 @@
     %---------------------------------------
     \item YOLO
         \hfill
-        ...in progress
+        in progress
 %        \github{https://github.com/ito-rafael/IA376E-NLP_DeepLearning-1s2020/blob/master/Aula\%203/Language_Model_(Rafael_Ito).ipynb}
 %        \hspace{0.1mm}
 %        \colab{https://colab.research.google.com/drive/1bN7PZKTg5tNFbshVDpeDs2SyO0ry7t-g}
     %---------------------------------------
     \item MobileNets
         \hfill
-        ...in progress
+        in progress
 %        \github{https://github.com/ito-rafael/IA376E-NLP_DeepLearning-1s2020/blob/master/Aula\%203/Language_Model_(Rafael_Ito).ipynb}
 %        \hspace{0.1mm}
 %        \colab{https://colab.research.google.com/drive/1bN7PZKTg5tNFbshVDpeDs2SyO0ry7t-g}
@@ -742,9 +748,9 @@
 \begin{minipage}[t]{0.53\linewidth}
 \small
 \textbf{\color{sectioncolor}One-page papers summary:}
-\vspace{1.0mm}\\
+\vspace{3.0mm}\\
 \scriptsize
-*available only in Portuguese
+* available only in Portuguese
 
 %-------------------
 % Google Drive icon
@@ -882,66 +888,76 @@
 % change arraystretch (distance between items):
 %\begin{cvtable}[<arraystretch>=1]
 %\begin{cvtable}[1.5]
+%-------------------
+% include images path
 \graphicspath{{../figures/work/}}
-\newcolumntype{L}{>{\centering\arraybackslash}m{5.5cm}}
-%	%\cvitem
+%-------------------
     \cvevent
         {Technological Development Analyst}
         {CNPEM/LNLS}
         {Jan 2016 -- current}
         {Campinas/SP}
-        {\hspace{2mm}\includegraphics[height=0.07\textwidth]{CNPEM}}
-        {Blah}
+        {\hspace{2mm}\includegraphics[height=0.05\textwidth]{CNPEM}}
+        {Undergraduate internship realized at LNLS (Brazilian Synchrotron Light Laboratory) during the year of 2016 at the Controls Group with focus in hardware and software projects for the Sirius particle accelerator. At this period, projects with microcontrollers, single board computers, and platforms like BeagleBone Black and Green, Kinetis development platform KL25Z and K64F, and CPLD projects were developed.\\
+        At the beginning of 2017, I was hired as Technological Development Analyst. Most of the projects consisted of the development of hardware and software to remotely control devices. The controls system platform adopted is the EPICS. Network management, Linux servers maintenance and interns mentorship were also related activities.
+        \begin{itemize}
+            \item \github{https://github.com/lnls-sirius/spixconv} \hspace{0.5mm} \textbf{SPIxCONV:} This project consists of an 18-bit analog input (ADC) and output (DAC) within a range of 20 V ($\pm$ 10 V) and 32 digital pins that can be either as inputs or outputs. This system interfaces with pulsed power electronics hardware in order to control the output voltage for pulsed magnets as well as read and write status commands to their power supplies. An operator interface (OPI) software based on Qt was also developed for remote control.
+            \item \github{https://github.com/lnls-sirius/vacuum-bbb-controller} \hspace{0.5mm} \textbf{VBC:} This project (vacuum-bbb-controller) consists of a hardware based on BeagleBone Black that controls (read and write) a pump station. Several devices are controlled, such as mechanical pump, turbomolecular pump and valves. An OPI for remote control was also developed.
+            \item \github{https://github.com/lnls-sirius/pydm-opi} \hspace{0.5mm} \textbf{pydm-opi:} Set of all OPI screens built with PyDM (PyQt-based framework) developed by the Controls Group of LNLS.
+            \item \github{https://github.com/lnls-sirius/mailpy} \hspace{0.5mm} \textbf{mailpy:} Python script that monitors several variables, check their specified operation values and send e-mails to a list of targets with a warning message if the variable value exceed its limits.
+        \end{itemize}
+        }
     %---------------------------------------
-    \\\profiledivider
+    \profiledivider
     %---------------------------------------
-	%\cvitem{Jan 2016 Jul 2016}{Teaching Assistant}{University of Campinas}{bla alkdjasjd asdjasd asiod asoidj asoid jasdj asoidj as djaskldjaslkd jalsdjlasjda daskl djalskdlajs ldasj dlkasj daskldj alsjdasld lasdasd aslj dlasdj asl djlas ldajl dasjd asl dlasjd\medskip}
-	%\cvitem
+    \vspace{-2.2mm}
     \cvevent
         {Teaching Assistant}
         {University of Campinas}
         {Jan 2016 -- Jul 2016}
         {Campinas/SP}
         {\hspace{2mm}\includegraphics[height=0.07\textwidth]{Unicamp}}
-        {\blindtext}
+        {During this period I was responsible for helping the teacher to prepare the laboratory experiments and to help the students with all the laboratory classes of the subject EE641 (Basic Electronics Lab II). Several projects for the platform Raspberry Pi were developed. For example, PWM controllers, wireless data transmission, temperature sensor with thermostat, R/2R ladder DAC, Successive approximation ADC, ECG waveform generator and signal recorder.}
     %---------------------------------------
     \\\profiledivider
     %---------------------------------------
-	%\cvitem
+    \vspace{-2.2mm}
     \cvevent
         {Scientific Research}
         {Queen Mary University of London}
         {Jun 2015 -- Sep 2015}
         {London}
-        {\hspace{2mm}\includegraphics[height=0.07\textwidth]{QMUL}}
-        {blabljdbjsdl bksdjblsdblds bjsd bkljsd blksjd blksdj blsd jblsd blksdjb lksdj blkds jblskd bjsdbjksdl bjlsdjblsd jblsdb sdlk bjlds jbsdkl bdsjl bkldsj blsd lbj s dblsdb sd kbj sdlkbjdskl bjdskl jbldsj b}
+        {\hspace{2mm}\includegraphics[height=0.05\textwidth]{QMUL}}
+        {The research was performed in the audio engineering area with focus on the synthesis of sounds. Through studies of spectrograms, power spectrums and time domain analysis, it was generated algorithms that synthesize the sound of different types of electric motors.}
     %---------------------------------------
     \\\profiledivider
     %---------------------------------------
-	%\cvitem{Jan 2010 Jun 2010}{Electronics intern}{CPqD - Telecommunications Research and Development Centre}{bla\medskip}
-	%\cvitem
+    \vspace{-2.2mm}
     \cvevent
         {Electronics intern}
         {CPqD - Telecommunications Research and Development Centre}
         {Jan 2010 -- Jun 2010}
         {Campinas/SP}
-        {\hspace{2mm}\includegraphics[height=0.07\textwidth]{CPqD}}
-        {bla}
+        {\hspace{2mm}\includegraphics[height=0.05\textwidth]{CPqD}}
+        {This internship was about performing quality tests in telecommunication equipment and build reports for the ANATEL (National Telecommunications Agency). The aim was to certificate and homologate products in order to legally commercialize and use them in Brazil. The tests were about the first layer of the OSI model (physical layer). The most common interfaces certificated were ADSL, E1, SHDSL, V.35.}
     %---------------------------------------
     \\\profiledivider
     %---------------------------------------
-    %\cvitem
+    \vspace{-2.2mm}
     \cvevent
         {Teaching Assistant}
         {Technical College of Campinas}
         {Jan 2009 -- Dec 2009}
         {Campinas/SP}
         {\hspace{2mm}\includegraphics[height=0.07\textwidth]{Cotuca}}
-        {bla}
+        {I was responsible for assisting the teachers in the laboratory classes and helping other students solving doubts about any subject of the electrical-electronic course. As result, I could improve my social skills and my time management, since I studied the high school in the morning, the further education (electrical-electronic) in the afternoon and I worked on the programme at night.}
+    %---------------------------------------
+\vspace{-1mm}
 
 %=======================================
 \cvsection{Publications}
 %=======================================
+\vspace{3mm}
 %-------------------
 % include images path
 \graphicspath{{../figures/}}
@@ -956,16 +972,14 @@
             Exploring Embedded Systems' Dedicated Cores for Real-Time Applications}
         {P. H. Nallin, G. R. S. Franco, R. C. Ito, and A. R. D. Rodrigues}
 		{17th Int. Conf. on Accelerator and Large Experimental Physics Control Systems (ICALEPCS'19)}
-        {October 2019}
-        %{New York, USA}
+        {October 2019 \\ New York, USA}
     %---------------------------------------
 	\cvpubitem
         {\pdf{http://icalepcs2019.vrws.de/papers/mopha031.pdf}
             Software and Hardware Design for Controls Infrastructure at Sirius Light Source}
         {G. R. S. Franco et al.}
         {17th Int. Conf. on Accelerator and Large Experimental Physics Control Systems (ICALEPCS'19)}
-        {October 2019}
-        %{New York, USA}
+        {October 2019 \\ New York, USA}
 \end{cvtable}
 %=======================================
 
@@ -1019,6 +1033,7 @@
 %		does not look too bad}{Authors}{Journal}{Year}
 %\end{cvtable}
 
+\vspace{3mm}
 \cvsignature
 
 \end{document}
